@@ -1,0 +1,32 @@
+{
+  "application": {
+    "baseUrl": "https://www.automationexercise.com/"
+  },
+  "registration": {
+    "namePrefix": "QA User",
+    "emailPrefix": "qa",
+    "password": "Synthetic-QA-2026!",
+    "gender": "male",
+    "birthDate": {
+      "day": "1",
+      "month": "January",
+      "year": "1990"
+    },
+    "newsletter": true,
+    "specialOffers": true,
+    "firstName": "Synthetic",
+    "lastName": "Tester",
+    "company": "QA Practice",
+    "address1": "100 Test Street",
+    "address2": "Suite 1",
+    "country": "United States",
+    "state": "Test State",
+    "city": "Test City",
+    "zipcode": "12345",
+    "mobileNumber": "2025550100"
+  },
+  "invalidLogin": {
+    "emailPrefix": "qa.invalid",
+    "password": "Synthetic-QA-2026!"
+  }
+}

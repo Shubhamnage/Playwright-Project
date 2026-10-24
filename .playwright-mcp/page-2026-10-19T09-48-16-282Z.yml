@@ -1,0 +1,80 @@
+- generic [aria-hidden] [ref=f50e1]:
+  - banner [ref=f50e2]:
+    - generic [ref=f50e5]:
+      - link [ref=f50e92] [cursor=pointer]:
+        - /url: /
+      - list [ref=f50e12]:
+        - listitem [ref=f50e13]:
+          - link [ref=f50e94] [cursor=pointer]:
+            - /url: /
+            - generic [ref=f50e15]: 
+            - text: Home
+        - listitem [ref=f50e16]:
+          - link [ref=f50e95] [cursor=pointer]:
+            - /url: /products
+            - generic [ref=f50e18]: 
+            - text: Products
+        - listitem [ref=f50e19]:
+          - link [ref=f50e96] [cursor=pointer]:
+            - /url: /view_cart
+            - generic [ref=f50e21]: 
+            - text: Cart
+        - listitem [ref=f50e22]:
+          - link [ref=f50e97] [cursor=pointer]:
+            - /url: /login
+            - generic [ref=f50e24]: 
+            - text: Signup / Login
+        - listitem [ref=f50e25]:
+          - link [ref=f50e98] [cursor=pointer]:
+            - /url: /test_cases
+            - generic [ref=f50e27]: 
+            - text: Test Cases
+        - listitem [ref=f50e28]:
+          - link [ref=f50e99] [cursor=pointer]:
+            - /url: /api_list
+            - generic [ref=f50e30]: 
+            - text: API Testing
+        - listitem [ref=f50e31]:
+          - link [ref=f50e100] [cursor=pointer]:
+            - /url: https://www.youtube.com/c/AutomationExercise
+            - generic [ref=f50e33]: 
+            - text: Video Tutorials
+        - listitem [ref=f50e34]:
+          - link [ref=f50e101] [cursor=pointer]:
+            - /url: /contact_us
+            - generic [ref=f50e36]: 
+            - text: Contact us
+  - generic [ref=f50e40]:
+    - heading [level=2] [ref=f50e102]: Account Created!
+    - paragraph [ref=f50e42]:
+      - text: Congratulations! Your new account has been successfully created!
+      - link [ref=f50e103] [cursor=pointer]: Get Writing Tools
+    - paragraph [ref=f50e47]:
+      - text: You can now take advantage of member privileges to enhance your online
+      - link [ref=f50e104] [cursor=pointer]:
+        - /url: "#"
+        - text: shopping
+      - text: experience with us.
+    - link [ref=f50e105] [cursor=pointer]:
+      - /url: /
+      - text: Continue
+  - contentinfo [ref=f50e53]:
+    - generic [ref=f50e58]:
+      - heading [level=2] [ref=f50e106]: Subscription
+      - generic [ref=f50e60]:
+        - textbox [ref=f50e107]:
+          - /placeholder: Your email address
+        - button [ref=f50e108] [cursor=pointer]:
+          - generic [ref=f50e63]: 
+        - paragraph [ref=f50e64]: Get the most recent updates from our site and be updated your self...
+    - paragraph [ref=f50e68]: Copyright © 2021 All rights reserved
+  - text: 
+  - insertion [ref=f50e70]:
+    - generic [ref=f50e73]:
+      - heading [level=2] [ref=f50e109]: Discover more
+      - link [ref=f50e110] [cursor=pointer]:
+        - generic [ref=f50e111]: Automation testing tools
+      - link [ref=f50e112] [cursor=pointer]:
+        - generic [ref=f50e113]: Website automation services
+      - link [ref=f50e114] [cursor=pointer]:
+        - generic [ref=f50e115]: E-commerce platform solutions
