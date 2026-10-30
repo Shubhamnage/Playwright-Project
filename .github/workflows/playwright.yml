@@ -12,10 +12,15 @@ on:
 
   workflow_dispatch:
 
+permissions:
+  contents: read
+
 jobs:
   test:
+    name: Playwright Tests - ${{ matrix.project }}
     timeout-minutes: 60
     runs-on: ubuntu-latest
+
     strategy:
       fail-fast: false
       matrix:
@@ -30,7 +35,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: lts/*
+          node-version: "22"
           cache: npm
 
       - name: Install dependencies
@@ -41,12 +46,23 @@ jobs:
 
       - name: Run widgets.spec.ts in ${{ matrix.project }}
         run: npx playwright test tests/practice/widgets.spec.ts --project="${{ matrix.project }}" --workers=4
+        env:
+          CI: "true"
 
       - name: Upload Playwright report
-        uses: actions/upload-artifact@v4
         if: ${{ !cancelled() }}
+        uses: actions/upload-artifact@v4
         with:
           name: playwright-report-${{ matrix.project }}
           path: playwright-report/
+          retention-days: 30
+          if-no-files-found: ignore
+
+      - name: Upload test results
+        if: ${{ !cancelled() }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: playwright-results-${{ matrix.project }}
+          path: test-results/
           retention-days: 30
           if-no-files-found: ignore
