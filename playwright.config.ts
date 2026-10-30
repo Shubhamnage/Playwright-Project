@@ -26,16 +26,16 @@ export default defineConfig({
     // Read URL from .env
     baseURL: process.env.BASE_URL,
 
-    // Run in headed mode
-    headless: false,
+    // Use headless browsers in CI; retain headed mode for local runs.
+    headless: !!process.env.CI,
 
-    // Required for browser maximization
-    viewport: null,
+    // Keep local browser maximization while using a stable CI viewport.
+    viewport: process.env.CI ? { width: 1280, height: 720 } : null,
 
-    // Launch browser maximized
+    // Keep local launch behavior without slowing down CI workers.
     launchOptions: {
-      args: ['--start-maximized'],
-      slowMo: 300
+      args: process.env.CI ? [] : ['--start-maximized'],
+      slowMo: process.env.CI ? 0 : 300
     },
 
     // Ignore SSL certificate errors
@@ -55,12 +55,20 @@ export default defineConfig({
     navigationTimeout: 30000
   },
 
-  // Chrome project
+  // Run the practice suite in Google Chrome and Microsoft Edge.
   projects: [
     {
       name: 'Chrome',
       use: {
-        browserName: 'chromium'
+        browserName: 'chromium',
+        channel: 'chrome'
+      }
+    },
+    {
+      name: 'Edge',
+      use: {
+        browserName: 'chromium',
+        channel: 'msedge'
       }
     }
   ],
