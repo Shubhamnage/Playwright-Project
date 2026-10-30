@@ -1,0 +1,12 @@
+{
+  "contact": {
+    "name": "Taylor Tester",
+    "email": "taylor@example.test",
+    "phone": "2025550100",
+    "address": "12 Example Street"
+  },
+  "dateRange": {
+    "start": "2026-02-28",
+    "end": "2026-03-01"
+  }
+}
