@@ -1,5 +1,5 @@
 
-name: "Copilot Setup Steps"
+name: "Copilot Setup Steps - Playwright Execution"
 
 on:
   workflow_dispatch:
@@ -14,37 +14,70 @@ on:
 
 jobs:
   copilot-setup-steps:
-    name: Prepare Playwright Environment
+    name: Execute Playwright Test Cases
     runs-on: ubuntu-latest
     timeout-minutes: 60
 
     permissions:
       contents: read
 
+    strategy:
+      fail-fast: false
+      matrix:
+        project:
+          - Chrome
+          - Edge
+
     steps:
-      # Step 1: Checkout repository
+      # 1. Checkout repository
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      # Step 2: Setup Node.js
+      # 2. Setup Node.js
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: "22"
           cache: npm
 
-      # Step 3: Install project dependencies
+      # 3. Install dependencies
       - name: Install dependencies
         run: npm ci
 
-      # Step 4: Install Playwright browsers
+      # 4. Install Playwright browsers
       - name: Install Playwright browsers
-        run: npx playwright install --with-deps
+        run: npx playwright install --with-deps chrome msedge
 
-      # Step 5: Verify Playwright installation
+      # 5. Verify Playwright installation
       - name: Verify Playwright version
         run: npx playwright --version
 
-      # Step 6: Verify test discovery
-      - name: Verify Playwright test cases
-        run: npx playwright test --list
+      # 6. Discover generated test cases
+      - name: List Playwright test cases
+        run: npx playwright test --project="${{ matrix.project }}" --list
+
+      # 7. Execute all generated Playwright test cases
+      - name: Execute Playwright tests - ${{ matrix.project }}
+        run: npx playwright test --project="${{ matrix.project }}" --workers=4
+        env:
+          CI: "true"
+
+      # 8. Upload HTML report
+      - name: Upload Playwright HTML report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: playwright-report-${{ matrix.project }}
+          path: playwright-report/
+          retention-days: 30
+          if-no-files-found: ignore
+
+      # 9. Upload screenshots, videos and traces
+      - name: Upload test results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: playwright-results-${{ matrix.project }}
+          path: test-results/
+          retention-days: 30
+          if-no-files-found: ignore
