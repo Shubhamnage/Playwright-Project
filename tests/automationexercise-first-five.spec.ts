@@ -116,5 +116,6 @@ test.describe('Automation Exercise Test Cases', () => {
     await loginAgainPage.login(user.email, user.password);
     await expectLoggedIn(page, user);
     await deleteCurrentAccount(page);
+    
   });
 });

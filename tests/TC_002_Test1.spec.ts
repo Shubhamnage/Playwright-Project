@@ -1,4 +1,5 @@
-import { test, expect, chromium } from '@playwright/test';
+import { test, expect } from '../fixtures/baseTest';
+import { chromium } from '@playwright/test';
 
 try {
     test.describe("Validating scenarios", () => {
@@ -62,6 +63,7 @@ try {
         test("validating the Table scenarios", async ({ page }) => {
             try {
                 await page.goto("https://practicetestautomation.com/practice-test-table/");
+                await page.pause();
 
                 const Course_Name = page.locator("//td[@data-col='course']");
                 const ID = page.locator("//td[@data-col='id']");
@@ -79,6 +81,7 @@ try {
                     ${await Level.nth(i).textContent()}
                     ${await Enrollments.nth(i).textContent()}`);
                     }
+
                 }
             } catch (error) {
                 console.log("Facing the below error msg :- ", error);
@@ -89,6 +92,7 @@ try {
         test("validating the Table scenarios with the help of locator.allTextContents()", async ({ page }) => {
             try {
                 await page.goto("https://practicetestautomation.com/practice-test-table/");
+                await page.pause();
                 const courseNames = await page.locator("//td[@data-col='course']").allTextContents();
                 const ids = await page.locator("//td[@data-col='id']").allTextContents();
                 const languages = await page.locator("//td[@data-col='language']").allTextContents();
@@ -120,6 +124,44 @@ try {
                 await browser.close();
             })();
         });
+
+
+
+        test('Test Case 7: Sort by Enrollments in ascending numeric order', async ({ page }) => {
+
+            // Step 1: Open the application
+            await page.goto('https://practicetestautomation.com/practice-test-table/');
+
+            // Step 2: Select Enrollments from Sort by dropdown
+            await page.getByLabel('Sort by').selectOption({ label: 'Enrollments' });
+
+            // Step 3: Read all visible enrollment values
+            const enrollmentCells = page.locator("//td[@headers='col_enroll']");
+
+            const count = await enrollmentCells.count();
+            const actualValues = [];
+
+            for (let i = 0; i < count; i++) {
+                const text = await enrollmentCells.nth(i).innerText();
+
+                // Remove commas and convert the value to a number
+                const numericValue = Number(text.trim().replace(/,/g, ''));
+
+                actualValues.push(numericValue);
+            }
+
+            // Step 4: Create expected ascending numeric order
+            const expectedValues = [...actualValues].sort((a, b) => a - b);
+
+            // Step 5: Verify actual order matches numeric ascending order
+            expect(actualValues).toEqual(expectedValues);
+
+            // Step 6: Verify comma-separated values are parsed correctly
+            console.log('Actual enrollment values:', actualValues);
+            console.log('Expected enrollment values:', expectedValues);
+
+        });
+
 
 
     });

@@ -1,0 +1,524 @@
+2026-11-10 14:34:33 [INFO] ============================================
+2026-11-10 14:34:33 [INFO] TEST STARTED: TC002:-Handleing the alert Pop-up 
+2026-11-10 14:34:33 [INFO] PROJECT: Chrome
+2026-11-10 14:34:33 [INFO] RETRY: 0
+2026-11-10 14:34:33 [INFO] ============================================
+2026-11-10 14:34:33 [INFO] TEST STARTED: TC01:-Validating the mutiple click button and skip button @regression
+2026-11-10 14:34:33 [INFO] PROJECT: Chrome
+2026-11-10 14:34:33 [INFO] RETRY: 0
+2026-11-10 14:34:33 [INFO] ============================================
+2026-11-10 14:34:33 [INFO] TEST STARTED: TC003:-Validating few scenarios 
+2026-11-10 14:34:33 [INFO] PROJECT: Chrome
+2026-11-10 14:34:33 [INFO] RETRY: 0
+2026-11-10 14:34:33 [INFO] ============================================
+2026-11-10 14:34:33 [INFO] TEST STARTED: TC004:-Validating below scenarios 
+2026-11-10 14:34:33 [INFO] PROJECT: Chrome
+2026-11-10 14:34:33 [INFO] RETRY: 0
+2026-11-10 14:34:33 [INFO] ============================================
+2026-11-10 14:34:33 [INFO] TEST STARTED: TC005:-Set both slider values from variables
+2026-11-10 14:34:33 [INFO] PROJECT: Chrome
+2026-11-10 14:34:33 [INFO] RETRY: 0
+2026-11-10 14:34:33 [INFO] PAGE NAVIGATED: https://testautomationpractice.blogspot.com/
+2026-11-10 14:34:34 [ERROR] BROWSER CONSOLE ERROR: Refused to apply style from 'https://testautomationpractice.blogspot.com/resources/demos/style.css' because its MIME type ('text/html') is not a supported stylesheet MIME type, and strict MIME checking is enabled.
+2026-11-10 14:34:34 [ERROR] REQUEST FAILED: GET https://testautomationpractice.blogspot.com/resources/demos/style.css | net::ERR_ABORTED
+2026-11-10 14:34:34 [INFO] PAGE NAVIGATED: https://www.automationexercise.com/
+2026-11-10 14:34:34 [INFO] PAGE NAVIGATED: https://testautomationpractice.blogspot.com/
+2026-11-10 14:34:34 [ERROR] BROWSER CONSOLE ERROR: Mixed Content: The page at 'https://www.automationexercise.com/' was loaded over HTTPS, but requested an insecure stylesheet 'http://fonts.googleapis.com/css?family=Roboto:400,300,400italic,500,700,100'. This request has been blocked; the content must be served over HTTPS.
+2026-11-10 14:34:34 [ERROR] REQUEST FAILED: GET http://fonts.googleapis.com/css?family=Roboto:400,300,400italic,500,700,100 | mixed-content
+2026-11-10 14:34:34 [ERROR] BROWSER CONSOLE ERROR: Mixed Content: The page at 'https://www.automationexercise.com/' was loaded over HTTPS, but requested an insecure stylesheet 'http://fonts.googleapis.com/css?family=Open+Sans:400,800,300,600,700'. This request has been blocked; the content must be served over HTTPS.
+2026-11-10 14:34:34 [ERROR] REQUEST FAILED: GET http://fonts.googleapis.com/css?family=Open+Sans:400,800,300,600,700 | mixed-content
+2026-11-10 14:34:34 [ERROR] BROWSER CONSOLE ERROR: Mixed Content: The page at 'https://www.automationexercise.com/' was loaded over HTTPS, but requested an insecure stylesheet 'http://fonts.googleapis.com/css?family=Abel'. This request has been blocked; the content must be served over HTTPS.
+2026-11-10 14:34:34 [ERROR] REQUEST FAILED: GET http://fonts.googleapis.com/css?family=Abel | mixed-content
+2026-11-10 14:34:35 [INFO] PAGE NAVIGATED: https://testautomationpractice.blogspot.com/p/playwrightpractice.html
+2026-11-10 14:34:35 [INFO] PAGE NAVIGATED: https://testautomationpractice.blogspot.com/p/playwrightpractice.html
+2026-11-10 14:34:35 [ERROR] BROWSER CONSOLE ERROR: Refused to apply style from 'https://testautomationpractice.blogspot.com/resources/demos/style.css' because its MIME type ('text/html') is not a supported stylesheet MIME type, and strict MIME checking is enabled.
+2026-11-10 14:34:35 [ERROR] REQUEST FAILED: GET https://testautomationpractice.blogspot.com/resources/demos/style.css | net::ERR_ABORTED
+2026-11-10 14:34:35 [ERROR] BROWSER CONSOLE ERROR: Refused to apply style from 'https://testautomationpractice.blogspot.com/resources/demos/style.css' because its MIME type ('text/html') is not a supported stylesheet MIME type, and strict MIME checking is enabled.
+2026-11-10 14:34:35 [ERROR] REQUEST FAILED: GET https://testautomationpractice.blogspot.com/resources/demos/style.css | net::ERR_ABORTED
+2026-11-10 14:34:35 [ERROR] BROWSER CONSOLE ERROR: Refused to apply style from 'https://testautomationpractice.blogspot.com/resources/demos/style.css' because its MIME type ('text/html') is not a supported stylesheet MIME type, and strict MIME checking is enabled.
+2026-11-10 14:34:35 [ERROR] REQUEST FAILED: GET https://testautomationpractice.blogspot.com/resources/demos/style.css | net::ERR_ABORTED
+2026-11-10 14:34:36 [ERROR] REQUEST FAILED: POST https://pagead2.googlesyndication.com/pagead/ping?e=1 | net::ERR_ABORTED
+2026-11-10 14:34:36 [ERROR] BROWSER CONSOLE ERROR: Refused to apply style from 'https://testautomationpractice.blogspot.com/resources/demos/style.css' because its MIME type ('text/html') is not a supported stylesheet MIME type, and strict MIME checking is enabled.
+2026-11-10 14:34:36 [ERROR] REQUEST FAILED: GET https://testautomationpractice.blogspot.com/resources/demos/style.css | net::ERR_ABORTED
+2026-11-10 14:34:36 [ERROR] BROWSER CONSOLE ERROR: Refused to apply style from 'https://testautomationpractice.blogspot.com/resources/demos/style.css' because its MIME type ('text/html') is not a supported stylesheet MIME type, and strict MIME checking is enabled.
+2026-11-10 14:34:36 [ERROR] REQUEST FAILED: GET https://testautomationpractice.blogspot.com/resources/demos/style.css | net::ERR_ABORTED
+2026-11-10 14:34:36 [ERROR] BROWSER CONSOLE ERROR: Refused to apply style from 'https://testautomationpractice.blogspot.com/resources/demos/style.css' because its MIME type ('text/html') is not a supported stylesheet MIME type, and strict MIME checking is enabled.
+2026-11-10 14:34:36 [ERROR] REQUEST FAILED: GET https://testautomationpractice.blogspot.com/resources/demos/style.css | net::ERR_ABORTED
+2026-11-10 14:34:37 [ERROR] REQUEST FAILED: GET https://pagead2.googlesyndication.com/pagead/gen_204?id=av-js&type=fle-fetch-start2 | net::ERR_ABORTED
+2026-11-10 14:34:37 [ERROR] REQUEST FAILED: GET https://pagead2.googlesyndication.com/pagead/gen_204?id=av-js&type=colleague-executed&name=4 | net::ERR_ABORTED
+2026-11-10 14:34:37 [ERROR] REQUEST FAILED: GET https://pagead2.googlesyndication.com/pagead/gen_204?id=av-js&type=reach&proto=CAlgAWgD | net::ERR_ABORTED
+2026-11-10 14:34:37 [ERROR] BROWSER CONSOLE ERROR: Refused to apply style from 'https://testautomationpractice.blogspot.com/resources/demos/style.css' because its MIME type ('text/html') is not a supported stylesheet MIME type, and strict MIME checking is enabled.
+2026-11-10 14:34:37 [ERROR] REQUEST FAILED: GET https://testautomationpractice.blogspot.com/resources/demos/style.css | net::ERR_ABORTED
+2026-11-10 14:34:37 [ERROR] REQUEST FAILED: POST https://pagead2.googlesyndication.com/pagead/ping?e=1 | net::ERR_ABORTED
+2026-11-10 14:34:37 [ERROR] BROWSER CONSOLE ERROR: Refused to apply style from 'https://testautomationpractice.blogspot.com/resources/demos/style.css' because its MIME type ('text/html') is not a supported stylesheet MIME type, and strict MIME checking is enabled.
+2026-11-10 14:34:37 [ERROR] REQUEST FAILED: GET https://testautomationpractice.blogspot.com/resources/demos/style.css | net::ERR_ABORTED
+2026-11-10 14:34:37 [ERROR] BROWSER CONSOLE ERROR: Refused to apply style from 'https://testautomationpractice.blogspot.com/resources/demos/style.css' because its MIME type ('text/html') is not a supported stylesheet MIME type, and strict MIME checking is enabled.
+2026-11-10 14:34:37 [ERROR] REQUEST FAILED: GET https://testautomationpractice.blogspot.com/resources/demos/style.css | net::ERR_ABORTED
+2026-11-10 14:34:37 [INFO] TEST PASSED: TC002:-Handleing the alert Pop-up 
+2026-11-10 14:34:37 [INFO] EXECUTION TIME: 4824 ms
+2026-11-10 14:34:37 [INFO] ============================================
+2026-11-10 14:34:38 [INFO] PAGE NAVIGATED: https://www.automationexercise.com/#google_vignette
+2026-11-10 14:34:38 [ERROR] REQUEST FAILED: GET https://googleads4.g.doubleclick.net/pcs/view?xai=AKAOjstObY74P1xaX2_9NNU5mVleSF-xMWgr_zHYayWeujjq5iBUi5TIGrS_Ouv18r7uAq2uzgbIv4mh-_zJJrbbR6JEsOkpa-etl5zd5tiuZMri02UxEaa2Sr8EyuPaGDqvhxghQr1HNDpNE-oviOV4rNTuARZIippFg7uT3A-cvb1wtubWARqJ349J__yEj-3paHCDunWx5a6HokCHkN3gehhWyprGdi8d0ueR4qk-gcduL6_Alsf-OprX_1jQUkCM6VYlYCn8UjhByOzALtyX3n9eAQYomFshEbxxpy3ms6826-os1PuYyPFDqmLsHAUrCd_dPzVMa86Gm15k66TLCSokL1Y99cViLRsxr5lQl-nZacjnJyC9N1K5AXo4IkLT1PedU0YZmXI8MRKmzoDRnX6LgUbbqQIk7ftSWUZ1XuwyoUHxXK4BB22_fJs0lV6XQ_DX4omU_4wLL7lSAegiNW1e4jlz_0RofR2MaT2dDG4PXaRQiPfKSkpnpG7_yACqlBIO4c0nQ-f-Pfrjivywo32c5JOq8Uau39sFTAnimIIn63GKF44IQUIn_EIUT9GHDK9WEF5GRdhMiiMXRLjR_gkOkUeqSJu2bbO5BXiQvNgPjfus1hapRGRn_UrmHPNYmJRgBEVlDAa6vr0yVjz_DJ3u3jplDY0H0uSILwpbORkM7Gx6fx5pWBNwnxA6YDBTXViKJJO5ZsEOsOV5GSS9a99gOJ6dqxLTnICAfnWplsCynwB1IdOLf4vjALPibp0Ok6FKb4bEAb_kU6SnFP2Wmwh2-Mj38fp5Kl1r4v61LkvZMaLVpjuK7Dvx31dIvTVhJ7p6ksXoqzoja11WncCXwLum24rfQJwJW5DYG-dWUqVo8_hYZfJgWeMfrfdWl7rmTRQzLZ-11w6KPC_hGHic8j0Gx9i6ZRAoU39NPysrIkp63roz-F7lviBonfhNWsJ1XIFbjJUaW2koyEhWrQK0auR8pyebTNLjgm1UzRR8_FXssbkbOBActp80OSgVjCp4ErOLZnxyjCqdsdDvPyxR80_OMPNs5N0wA77PKYej2JjFKijNUe3VgldEYxk_PY7Mef0AGyAJwheMjkBGUUdJ_2HIvS1JRT9EJ9NOw_SONjQ7acROUhJBx-8bz_89numszOz3kRKWAM2A2lw3bsuvj5unO1F6NJcPtHpjRT5lAA81F72gJPJwOplFgqt-DVJfEEO9cbhpjM3TYqGBik2E3cbAOC44xSr7REc7azUGmawX2oJkRkbAr3J-YBm6zniAt1ZoPu8rJ8s1cO_usvFQKmr-xuOPxxMkA1elTlNpt3bpq84HnaY8TAvCziRw9uxWE4TOFHmPyVYUTDW4Q6-v5gOWe4sHFwNG7746UAejCfgYAXolA_OfgYpGFZC9OSzMrIZRCqie1ySb86LSx8qkzgtghI9DUqm1vLBysNI5L0TLRft2fdR31JgC8JTJai8OvXUlBvHXL0F75st7cpG6Zs0oAGHra7cH8TyG_LMJ5U2YPxazkYNE10ldFLUEfM9eK8PyyRaWKdHtKjB6noxGQgYuQDFIziPnsgBNUJ3_3OGzwMv7ng-w8SSivhYJbB3XNQMyDL6qyxjKCGPKbBrKU_I4fBThUPQal5ayfsNGWmqlm29e5c8o_6kEPY0bDmoYaivLRo5sEXzpOlKb1mYv6GUc_fUxsD4gdxzhBmlZMYCUrPGRDFLqI0UibsFqVGI9CZG0LImpx4WTSgbi8Jzc8OAbLCZHjPR-s1Cx3IM1o54dE1U-gZZCl_LoSiGS2wfb&sai=AMfl-YRYgvWKfRDYWEKeK3f_c0z8qlITjP979yTnvylEQkInSj13eZI0bhCPVSczGLYD6L4obkXX7b71kcN2X6vl7FWlz2gHXxy107vsxJhBrb78byHdRa8oxaZgq28nxv_lM4Am6WBlSJd7FgevdlN9k2y7Kl3BYCCCYxGw0-1B3LNlR0Gawyj8WWgfypQO49lHmUqherh_Mz_mLdBTTHzk-EyphtiKsabvcgXiQWID3K7BVZyYXu77lpbMWVoODmrxZAFho2N9lkK_hvCSLPIJkddiQJtXbJGK09yiazxiI9dGC789ZMWcUr-tXCqkEjhZJ2xzXHIF_KHF2pB_DWID4mtRQWvdQFM0gUB5NKezvGtu_gdj9dW4wcE7OkvqxMfeW3LdCCAuGbJMu4FKl988Jop1aPfCHBOsPSjFNOzXdLyRGQ2NZ4rth2XzJZWdOijy2CQClhuFhL_sRhCJkL-_iKMrfohb7Ex3fUs8dNP_3dMB7MG_r44tAA5qiTDSBp6es2e7MiJA-q0nZipIf0BVbzKae8089eyNofm4h7VdFVsMWMNJBuajtiip2MhaHp5Ha0wGlrzgEd3iyHuTlrv0Ndpu0CwHrtCkYK-dGE8We73EFXGh91szR3OAs1SE2aS5_q_AKIWEPWZ6N8aAbdhqY3IFUOaqqEItdzl223dQZN-5NJ-3wU1RG4o2VOZAvRkW646CTuiggOK5QeY2CnbYxeiSWA3J60OjfqW3OLCW7S4FhFPwXmNM6vHGYwxiIyrnv2WFjq14foVSzmZi-IbBXy14n7aUSm6TL8BJrQtTBL08a08ogH4Kgr8FtWj00NYF5zrTtBM2MXFQ0epC_gfTXfUqYvUn5cU4Tvy7wNL8wZtZouhNqfDRns4jTv8mOCjYq5_LWMJ9Vjv2AFMSGQrTka7CjpbOlJIAT5sWcH-tj8vjOi5cteyepNU__kiZjw&sig=Cg0ArKJSzNNZaNSMd0c1EAE&uach_m=%5BUACH%5D&fbs_aeid=%5Bgw_fbsaeid%5D&urlfix=1&omid=0&rm=1&ctpt=1686&cbvp=2&dett=3&cstd=421&cisv=r20261109.95436&uach=WyJXaW5kb3dzIiwiMTkuMC4wIiwieDg2IiwiIiwiMTU2LjAuODA3OC44MSIsbnVsbCwwLG51bGwsIjY0IixbWyJOb3Q6QS1CcmFuZCIsIjguMC4wLjAiXSxbIkNocm9taXVtIiwiMTU2LjAuODA3OC44MSJdLFsiR29vZ2xlIENocm9tZSIsIjE1Ni4wLjgwNzguODEiXV0sMF0.&arae=0&ftch=1&adurl= | net::ERR_ABORTED
+2026-11-10 14:34:39 [ERROR] REQUEST FAILED: POST https://pagead2.googlesyndication.com/pagead/ping?e=1 | net::ERR_ABORTED
+2026-11-10 14:34:39 [ERROR] REQUEST FAILED: POST https://www.automationexercise.com/cdn-cgi/rum? | net::ERR_ABORTED
+2026-11-10 14:34:39 [INFO] PAGE NAVIGATED: https://www.automationexercise.com/
+2026-11-10 14:34:41 [ERROR] BROWSER CONSOLE ERROR: Mixed Content: The page at 'https://www.automationexercise.com/' was loaded over HTTPS, but requested an insecure stylesheet 'http://fonts.googleapis.com/css?family=Roboto:400,300,400italic,500,700,100'. This request has been blocked; the content must be served over HTTPS.
+2026-11-10 14:34:41 [ERROR] REQUEST FAILED: GET http://fonts.googleapis.com/css?family=Roboto:400,300,400italic,500,700,100 | mixed-content
+2026-11-10 14:34:41 [ERROR] BROWSER CONSOLE ERROR: Mixed Content: The page at 'https://www.automationexercise.com/' was loaded over HTTPS, but requested an insecure stylesheet 'http://fonts.googleapis.com/css?family=Open+Sans:400,800,300,600,700'. This request has been blocked; the content must be served over HTTPS.
+2026-11-10 14:34:41 [ERROR] REQUEST FAILED: GET http://fonts.googleapis.com/css?family=Open+Sans:400,800,300,600,700 | mixed-content
+2026-11-10 14:34:41 [ERROR] BROWSER CONSOLE ERROR: Mixed Content: The page at 'https://www.automationexercise.com/' was loaded over HTTPS, but requested an insecure stylesheet 'http://fonts.googleapis.com/css?family=Abel'. This request has been blocked; the content must be served over HTTPS.
+2026-11-10 14:34:41 [ERROR] REQUEST FAILED: GET http://fonts.googleapis.com/css?family=Abel | mixed-content
+2026-11-10 14:34:41 [ERROR] REQUEST FAILED: GET https://www.automationexercise.com/static/js/jquery.js | net::ERR_ABORTED
+2026-11-10 14:34:42 [ERROR] REQUEST FAILED: GET https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-1677597403311019&output=html&adk=1812271804&adf=3025194257&abgtt=6&lmt=1794301482&plat=3%3A16%2C4%3A16%2C9%3A134250504%2C16%3A8388608%2C17%3A32%2C24%3A32%2C25%3A32%2C30%3A1081344%2C32%3A32%2C41%3A32%2C42%3A32%2C43%3A32%2C44%3A32&format=0x0&url=https%3A%2F%2Fwww.automationexercise.com%2F&pra=5&aiof=14&asro=0&itsi=0&aimartd=4&aieuf=1&aicrs=1&uach=WyJXaW5kb3dzIiwiMTkuMC4wIiwieDg2IiwiIiwiMTU2LjAuODA3OC44MSIsbnVsbCwwLG51bGwsIjY0IixbWyJOb3Q6QS1CcmFuZCIsIjguMC4wLjAiXSxbIkNocm9taXVtIiwiMTU2LjAuODA3OC44MSJdLFsiR29vZ2xlIENocm9tZSIsIjE1Ni4wLjgwNzguODEiXV0sMF0.&dt=1794301482115&bpp=18&bdt=2910&idt=178&shv=r20261109&mjsv=m202611060101&ptt=9&saldr=aa&abxe=1&cookie=ID%3Df918e16d03929c61%3AT%3D1794301473%3ART%3D1794301473%3AS%3DALNI_Ma2bbKEH_hUmj1j9y70ywyU-RuKLg&gpic=UID%3D000015d687a8fbc9%3AT%3D1794301473%3ART%3D1794301473%3AS%3DALNI_MY9jGMcEeBtjCWbGDHtP0ob5GBOJg&eo_id_str=ID%3D5559a3a72e3c6ac0%3AT%3D1794301473%3ART%3D1794301473%3AS%3DAA-AfjbNPAuYFcnnYtLUCmJ-qQqC&nras=1&correlator=8073088091246&frm=20&pv=2&u_tz=330&u_his=4&u_h=864&u_w=1536&u_ah=816&u_aw=1536&u_cd=24&u_sd=1.25&dmc=16&adx=-12245933&ady=-12245933&biw=1521&bih=730&scr_x=0&scr_y=0&eid=95404669%2C95407882%2C95408908%2C95408931%2C95409065%2C122882057%2C122882117%2C95405499%2C122882152&oid=2&pvsid=6797701391229440&tmod=788401041&uas=1&nvt=1&fsapi=1&ref=https%3A%2F%2Fwww.automationexercise.com%2F&fc=1920&brdim=0%2C0%2C0%2C0%2C1536%2C0%2C1536%2C816%2C1536%2C730&vis=1&rsz=%7C%7Cs%7C&abl=NS&fu=32768&bc=31&bz=1&ifi=1&uci=a!1&fsb=1&dtd=311 | net::ERR_ABORTED
+2026-11-10 14:34:42 [ERROR] REQUEST FAILED: GET https://ep2.adtrafficquality.google/sodar/sodar2.js | net::ERR_ABORTED
+2026-11-10 14:34:42 [ERROR] REQUEST FAILED: GET https://www.automationexercise.com/get_product_picture/11 | net::ERR_ABORTED
+2026-11-10 14:34:42 [ERROR] REQUEST FAILED: GET https://www.automationexercise.com/get_product_picture/43 | net::ERR_ABORTED
+2026-11-10 14:34:42 [ERROR] REQUEST FAILED: GET https://www.automationexercise.com/get_product_picture/28 | net::ERR_ABORTED
+2026-11-10 14:34:42 [ERROR] REQUEST FAILED: GET https://www.automationexercise.com/get_product_picture/38 | net::ERR_ABORTED
+2026-11-10 14:34:42 [ERROR] REQUEST FAILED: GET https://www.automationexercise.com/get_product_picture/20 | net::ERR_ABORTED
+2026-11-10 14:34:42 [ERROR] REQUEST FAILED: GET https://www.automationexercise.com/get_product_picture/35 | net::ERR_ABORTED
+2026-11-10 14:34:42 [ERROR] REQUEST FAILED: GET https://www.automationexercise.com/get_product_picture/31 | net::ERR_ABORTED
+2026-11-10 14:34:42 [ERROR] REQUEST FAILED: GET https://www.automationexercise.com/get_product_picture/37 | net::ERR_ABORTED
+2026-11-10 14:34:42 [ERROR] REQUEST FAILED: GET https://www.automationexercise.com/get_product_picture/22 | net::ERR_ABORTED
+2026-11-10 14:34:42 [ERROR] REQUEST FAILED: GET https://www.automationexercise.com/get_product_picture/29 | net::ERR_ABORTED
+2026-11-10 14:34:42 [ERROR] REQUEST FAILED: GET https://www.automationexercise.com/get_product_picture/39 | net::ERR_ABORTED
+2026-11-10 14:34:42 [ERROR] REQUEST FAILED: GET https://www.automationexercise.com/get_product_picture/21 | net::ERR_ABORTED
+2026-11-10 14:34:42 [ERROR] REQUEST FAILED: GET https://www.automationexercise.com/get_product_picture/41 | net::ERR_ABORTED
+2026-11-10 14:34:42 [ERROR] REQUEST FAILED: GET https://www.automationexercise.com/get_product_picture/42 | net::ERR_ABORTED
+2026-11-10 14:34:42 [ERROR] REQUEST FAILED: GET https://www.automationexercise.com/get_product_picture/40 | net::ERR_ABORTED
+2026-11-10 14:34:42 [ERROR] REQUEST FAILED: GET https://www.automationexercise.com/get_product_picture/33 | net::ERR_ABORTED
+2026-11-10 14:34:42 [ERROR] REQUEST FAILED: GET https://www.automationexercise.com/get_product_picture/24 | net::ERR_ABORTED
+2026-11-10 14:34:42 [ERROR] REQUEST FAILED: GET https://www.automationexercise.com/get_product_picture/13 | net::ERR_ABORTED
+2026-11-10 14:34:42 [ERROR] REQUEST FAILED: GET https://www.automationexercise.com/get_product_picture/30 | net::ERR_ABORTED
+2026-11-10 14:34:42 [INFO] PAGE NAVIGATED: https://www.automationexercise.com/
+2026-11-10 14:34:43 [ERROR] BROWSER CONSOLE ERROR: Mixed Content: The page at 'https://www.automationexercise.com/' was loaded over HTTPS, but requested an insecure stylesheet 'http://fonts.googleapis.com/css?family=Roboto:400,300,400italic,500,700,100'. This request has been blocked; the content must be served over HTTPS.
+2026-11-10 14:34:43 [ERROR] REQUEST FAILED: GET http://fonts.googleapis.com/css?family=Roboto:400,300,400italic,500,700,100 | mixed-content
+2026-11-10 14:34:43 [ERROR] BROWSER CONSOLE ERROR: Mixed Content: The page at 'https://www.automationexercise.com/' was loaded over HTTPS, but requested an insecure stylesheet 'http://fonts.googleapis.com/css?family=Open+Sans:400,800,300,600,700'. This request has been blocked; the content must be served over HTTPS.
+2026-11-10 14:34:43 [ERROR] REQUEST FAILED: GET http://fonts.googleapis.com/css?family=Open+Sans:400,800,300,600,700 | mixed-content
+2026-11-10 14:34:43 [ERROR] BROWSER CONSOLE ERROR: Mixed Content: The page at 'https://www.automationexercise.com/' was loaded over HTTPS, but requested an insecure stylesheet 'http://fonts.googleapis.com/css?family=Abel'. This request has been blocked; the content must be served over HTTPS.
+2026-11-10 14:34:43 [ERROR] REQUEST FAILED: GET http://fonts.googleapis.com/css?family=Abel | mixed-content
+2026-11-10 14:34:44 [ERROR] REQUEST FAILED: POST https://pagead2.googlesyndication.com/pagead/ping?e=1 | net::ERR_ABORTED
+2026-11-10 14:34:44 [INFO] TEST PASSED: TC004:-Validating below scenarios 
+2026-11-10 14:34:44 [INFO] EXECUTION TIME: 11833 ms
+2026-11-10 14:34:44 [INFO] ============================================
+2026-11-10 14:34:44 [ERROR] REQUEST FAILED: GET https://googleads.g.doubleclick.net/pagead/ads?gdpr=0&client=ca-pub-1677597403311019&output=html&h=600&adk=1963280680&adf=1292957221&pi=t.aa~a.3884009241~rp.4&abgtt=6&w=263&fwrn=4&fwrnh=100&lmt=1794301484&rafmt=1&to=qs&pwprc=4334590153&format=263x600&url=https%3A%2F%2Fwww.automationexercise.com%2F&fwr=0&pra=3&rpe=1&resp_fmts=4&aiof=14&asro=0&aimartd=4&aieuf=1&aicrs=1&fa=40&uach=WyJXaW5kb3dzIiwiMTkuMC4wIiwieDg2IiwiIiwiMTU2LjAuODA3OC44MSIsbnVsbCwwLG51bGwsIjY0IixbWyJOb3Q6QS1CcmFuZCIsIjguMC4wLjAiXSxbIkNocm9taXVtIiwiMTU2LjAuODA3OC44MSJdLFsiR29vZ2xlIENocm9tZSIsIjE1Ni4wLjgwNzguODEiXV0sMF0.&dt=1794301484370&bpp=8&bdt=1398&idt=-M&shv=r20261109&mjsv=m202611050101&ptt=9&saldr=aa&abxe=1&cookie=ID%3Df918e16d03929c61%3AT%3D1794301473%3ART%3D1794301473%3AS%3DALNI_Ma2bbKEH_hUmj1j9y70ywyU-RuKLg&gpic=UID%3D000015d687a8fbc9%3AT%3D1794301473%3ART%3D1794301473%3AS%3DALNI_MY9jGMcEeBtjCWbGDHtP0ob5GBOJg&eo_id_str=ID%3D5559a3a72e3c6ac0%3AT%3D1794301473%3ART%3D1794301473%3AS%3DAA-AfjbNPAuYFcnnYtLUCmJ-qQqC&prev_fmts=0x0&nras=2&correlator=8562537854540&frm=20&pv=1&u_tz=330&u_his=4&u_h=864&u_w=1536&u_ah=816&u_aw=1536&u_cd=24&u_sd=1.25&dmc=16&adx=190&ady=834&biw=1521&bih=730&scr_x=0&scr_y=0&eid=95404665%2C95407882%2C95408437%2C95408910%2C95409066%2C122882056%2C95405501&oid=2&pvsid=3582771588817070&tmod=1178977640&uas=1&nvt=1&ref=https%3A%2F%2Fwww.automationexercise.com%2F&fc=1920&brdim=0%2C0%2C0%2C0%2C1536%2C0%2C1536%2C816%2C1536%2C730&vis=1&rsz=%7C%7Cs%7C&abl=NS&fu=128&bc=31&bz=1&ifi=2&uci=a!2&btvi=1&fsb=1&dtd=252 | net::ERR_ABORTED
+2026-11-10 14:34:44 [INFO] PAGE NAVIGATED: https://www.automationexercise.com/products
+2026-11-10 14:34:45 [ERROR] BROWSER CONSOLE ERROR: Mixed Content: The page at 'https://www.automationexercise.com/products' was loaded over HTTPS, but requested an insecure stylesheet 'http://fonts.googleapis.com/css?family=Roboto:400,300,400italic,500,700,100'. This request has been blocked; the content must be served over HTTPS.
+2026-11-10 14:34:45 [ERROR] REQUEST FAILED: GET http://fonts.googleapis.com/css?family=Roboto:400,300,400italic,500,700,100 | mixed-content
+2026-11-10 14:34:45 [ERROR] BROWSER CONSOLE ERROR: Mixed Content: The page at 'https://www.automationexercise.com/products' was loaded over HTTPS, but requested an insecure stylesheet 'http://fonts.googleapis.com/css?family=Open+Sans:400,800,300,600,700'. This request has been blocked; the content must be served over HTTPS.
+2026-11-10 14:34:45 [ERROR] REQUEST FAILED: GET http://fonts.googleapis.com/css?family=Open+Sans:400,800,300,600,700 | mixed-content
+2026-11-10 14:34:45 [ERROR] BROWSER CONSOLE ERROR: Mixed Content: The page at 'https://www.automationexercise.com/products' was loaded over HTTPS, but requested an insecure stylesheet 'http://fonts.googleapis.com/css?family=Abel'. This request has been blocked; the content must be served over HTTPS.
+2026-11-10 14:34:45 [ERROR] REQUEST FAILED: GET http://fonts.googleapis.com/css?family=Abel | mixed-content
+2026-11-10 14:34:46 [ERROR] REQUEST FAILED: POST https://pagead2.googlesyndication.com/pagead/ping?e=1 | net::ERR_ABORTED
+2026-11-10 14:34:46 [ERROR] REQUEST FAILED: GET https://googleads.g.doubleclick.net/pagead/ads?gdpr=0&client=ca-pub-1677597403311019&output=html&h=600&adk=3579329306&adf=3825780761&pi=t.aa~a.818978976~rp.3&abgtt=6&w=263&fwrn=4&fwrnh=100&lmt=1794301486&rafmt=1&to=qs&pwprc=4334590153&format=263x600&url=https%3A%2F%2Fwww.automationexercise.com%2Fproducts&fwr=0&pra=3&rpe=1&resp_fmts=4&fa=40&uach=WyJXaW5kb3dzIiwiMTkuMC4wIiwieDg2IiwiIiwiMTU2LjAuODA3OC44MSIsbnVsbCwwLG51bGwsIjY0IixbWyJOb3Q6QS1CcmFuZCIsIjguMC4wLjAiXSxbIkNocm9taXVtIiwiMTU2LjAuODA3OC44MSJdLFsiR29vZ2xlIENocm9tZSIsIjE1Ni4wLjgwNzguODEiXV0sMF0.&dt=1794301485974&bpp=6&bdt=1041&idt=6&shv=r20261109&mjsv=m202611050101&ptt=9&saldr=aa&abxe=1&cookie=ID%3Df918e16d03929c61%3AT%3D1794301473%3ART%3D1794301473%3AS%3DALNI_Ma2bbKEH_hUmj1j9y70ywyU-RuKLg&gpic=UID%3D000015d687a8fbc9%3AT%3D1794301473%3ART%3D1794301473%3AS%3DALNI_MY9jGMcEeBtjCWbGDHtP0ob5GBOJg&eo_id_str=ID%3D5559a3a72e3c6ac0%3AT%3D1794301473%3ART%3D1794301473%3AS%3DAA-AfjbNPAuYFcnnYtLUCmJ-qQqC&prev_fmts=0x0&nras=2&correlator=1677771276845&frm=20&pv=1&u_tz=330&u_his=5&u_h=864&u_w=1536&u_ah=816&u_aw=1536&u_cd=24&u_sd=1.25&dmc=16&adx=190&ady=1078&biw=1521&bih=730&scr_x=0&scr_y=0&eid=95404669%2C95407882%2C95408437%2C95409065%2C95407167%2C95405501&oid=2&pvsid=3568479360248765&tmod=447953380&uas=1&nvt=1&ref=https%3A%2F%2Fwww.automationexercise.com%2F&fc=1920&brdim=0%2C0%2C0%2C0%2C1536%2C0%2C1536%2C816%2C1536%2C730&vis=1&rsz=%7C%7Cs%7C&abl=NS&fu=128&bc=31&bz=1&ifi=2&uci=a!2&btvi=1&fsb=1&dtd=243 | net::ERR_ABORTED
+2026-11-10 14:34:46 [ERROR] REQUEST FAILED: POST https://fundingchoicesmessages.google.com/el/AGSKWxXMKHy5qcVaIjmlCxHorq6ppcGy0iUXc765Hsc5FE697aO8xxFv5vtj3b1pq33DpY4geIIugFRpyKSRQizh43KcMBMS7h_lTCu-3Gazm5wgpbPK40aBIq-Do9aT-h_33MI6bULQjg== | net::ERR_ABORTED
+2026-11-10 14:34:46 [ERROR] REQUEST FAILED: GET https://fundingchoicesmessages.google.com/f/AGSKWxUjp3CAo9j2U6Ae0tey6xpuTZuWwNm783HkE0or3kL-9dwOWt_Dk-ahuEDoqodxnv2Gar4Zwk2x3Sh7bTn5yb8eNsgvsDg_O82TKQGSrhl_a-VI9-OQoAybivKvNOM4Qsn3HzlIUw==?fccs=W1siQUtzUm9sX2RmMEwtcFE5ZzZRbFFPdHhMODdtS3hVT0tUZGdHS2lqTmticnZ2SmFXQ3R4cmhUMUo0QnBfSTI4SmJBbHR5ZnMxLTBuZHpvYzBxYkFUZ183ZVF1SHd3RVUwUFE9PSJdLG51bGwsbnVsbCxudWxsLG51bGwsbnVsbCxbMTc5NDMwMTQ4NiwzNTUwMDAwMDBdLG51bGwsbnVsbCxudWxsLFtudWxsLFs3LDldLG51bGwsMixudWxsLCJlbiJdLCJodHRwczovL3d3dy5hdXRvbWF0aW9uZXhlcmNpc2UuY29tL3Byb2R1Y3RzIixudWxsLFtbOCwibVhDV293c3RCQ0UiXSxbOSwiZW4tVVMiXSxbMTgsIltbW251bGwsMTg3NSxudWxsLG51bGwsbnVsbCwxXV1dIl0sWzIzLCIxNzk0MzAxNDczIl0sWzM1LCIxNzk0MzAxNDc1Il0sWzE5LCIyIl0sWzE3LCJbMF0iXSxbMjQsInd3dy5hdXRvbWF0aW9uZXhlcmNpc2UuY29tIl0sWzI5LCJmYWxzZSJdXV0 | net::ERR_ABORTED
+2026-11-10 14:34:46 [INFO] PAGE NAVIGATED: https://www.automationexercise.com/view_cart
+2026-11-10 14:34:46 [INFO] TEST PASSED: TC003:-Validating few scenarios 
+2026-11-10 14:34:46 [INFO] EXECUTION TIME: 13658 ms
+2026-11-10 14:34:46 [INFO] ============================================
+2026-11-10 14:34:46 [ERROR] BROWSER CONSOLE ERROR: Mixed Content: The page at 'https://www.automationexercise.com/view_cart' was loaded over HTTPS, but requested an insecure stylesheet 'http://fonts.googleapis.com/css?family=Roboto:400,300,400italic,500,700,100'. This request has been blocked; the content must be served over HTTPS.
+2026-11-10 14:34:46 [ERROR] REQUEST FAILED: GET http://fonts.googleapis.com/css?family=Roboto:400,300,400italic,500,700,100 | mixed-content
+2026-11-10 14:34:46 [ERROR] BROWSER CONSOLE ERROR: Mixed Content: The page at 'https://www.automationexercise.com/view_cart' was loaded over HTTPS, but requested an insecure stylesheet 'http://fonts.googleapis.com/css?family=Open+Sans:400,800,300,600,700'. This request has been blocked; the content must be served over HTTPS.
+2026-11-10 14:34:46 [ERROR] REQUEST FAILED: GET http://fonts.googleapis.com/css?family=Open+Sans:400,800,300,600,700 | mixed-content
+2026-11-10 14:34:46 [ERROR] BROWSER CONSOLE ERROR: Mixed Content: The page at 'https://www.automationexercise.com/view_cart' was loaded over HTTPS, but requested an insecure stylesheet 'http://fonts.googleapis.com/css?family=Abel'. This request has been blocked; the content must be served over HTTPS.
+2026-11-10 14:34:46 [ERROR] REQUEST FAILED: GET http://fonts.googleapis.com/css?family=Abel | mixed-content
+2026-11-10 14:34:47 [ERROR] REQUEST FAILED: GET https://www.automationexercise.com/static/js/jquery.js | net::ERR_ABORTED
+2026-11-10 14:34:47 [ERROR] REQUEST FAILED: GET https://pagead2.googlesyndication.com/pagead/managed/js/adsense/m202611050101/show_ads_impl_fy2021.js | net::ERR_ABORTED
+2026-11-10 14:34:47 [INFO] PAGE NAVIGATED: https://www.automationexercise.com/login
+2026-11-10 14:34:47 [ERROR] BROWSER CONSOLE ERROR: Mixed Content: The page at 'https://www.automationexercise.com/login' was loaded over HTTPS, but requested an insecure stylesheet 'http://fonts.googleapis.com/css?family=Roboto:400,300,400italic,500,700,100'. This request has been blocked; the content must be served over HTTPS.
+2026-11-10 14:34:47 [ERROR] REQUEST FAILED: GET http://fonts.googleapis.com/css?family=Roboto:400,300,400italic,500,700,100 | mixed-content
+2026-11-10 14:34:47 [ERROR] BROWSER CONSOLE ERROR: Mixed Content: The page at 'https://www.automationexercise.com/login' was loaded over HTTPS, but requested an insecure stylesheet 'http://fonts.googleapis.com/css?family=Open+Sans:400,800,300,600,700'. This request has been blocked; the content must be served over HTTPS.
+2026-11-10 14:34:47 [ERROR] REQUEST FAILED: GET http://fonts.googleapis.com/css?family=Open+Sans:400,800,300,600,700 | mixed-content
+2026-11-10 14:34:47 [ERROR] BROWSER CONSOLE ERROR: Mixed Content: The page at 'https://www.automationexercise.com/login' was loaded over HTTPS, but requested an insecure stylesheet 'http://fonts.googleapis.com/css?family=Abel'. This request has been blocked; the content must be served over HTTPS.
+2026-11-10 14:34:47 [ERROR] REQUEST FAILED: GET http://fonts.googleapis.com/css?family=Abel | mixed-content
+2026-11-10 14:34:48 [ERROR] REQUEST FAILED: GET https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-1677597403311019&output=html&adk=1812271804&adf=3025194257&abgtt=6&lmt=1794301488&plat=3%3A16%2C4%3A16%2C9%3A134250504%2C16%3A8388608%2C17%3A32%2C24%3A32%2C25%3A32%2C30%3A1081344%2C32%3A32%2C41%3A32%2C42%3A32%2C43%3A32%2C44%3A32&format=0x0&url=https%3A%2F%2Fwww.automationexercise.com%2Flogin&pra=5&aiof=14&asro=0&itsi=0&aimartd=4&aieuf=1&aicrs=1&uach=WyJXaW5kb3dzIiwiMTkuMC4wIiwieDg2IiwiIiwiMTU2LjAuODA3OC44MSIsbnVsbCwwLG51bGwsIjY0IixbWyJOb3Q6QS1CcmFuZCIsIjguMC4wLjAiXSxbIkNocm9taXVtIiwiMTU2LjAuODA3OC44MSJdLFsiR29vZ2xlIENocm9tZSIsIjE1Ni4wLjgwNzguODEiXV0sMF0.&dt=1794301487980&bpp=14&bdt=326&idt=538&shv=r20261109&mjsv=m202611050101&ptt=9&saldr=aa&abxe=1&cookie=ID%3Df918e16d03929c61%3AT%3D1794301473%3ART%3D1794301473%3AS%3DALNI_Ma2bbKEH_hUmj1j9y70ywyU-RuKLg&gpic=UID%3D000015d687a8fbc9%3AT%3D1794301473%3ART%3D1794301473%3AS%3DALNI_MY9jGMcEeBtjCWbGDHtP0ob5GBOJg&eo_id_str=ID%3D5559a3a72e3c6ac0%3AT%3D1794301473%3ART%3D1794301473%3AS%3DAA-AfjbNPAuYFcnnYtLUCmJ-qQqC&nras=1&correlator=5192167134258&frm=20&pv=2&u_tz=330&u_his=7&u_h=864&u_w=1536&u_ah=816&u_aw=1536&u_cd=24&u_sd=1.25&dmc=16&adx=-12245933&ady=-12245933&biw=1521&bih=730&scr_x=0&scr_y=0&eid=95404664%2C95407882%2C95408437%2C95408910%2C95408929%2C95409066%2C122882055%2C122882144%2C42533293%2C95405501&oid=2&pvsid=7737204494101773&tmod=844099544&uas=1&nvt=1&fsapi=1&ref=https%3A%2F%2Fwww.automationexercise.com%2Fview_cart&fc=1920&brdim=0%2C0%2C0%2C0%2C1536%2C0%2C1536%2C816%2C1536%2C730&vis=1&rsz=%7C%7Cs%7C&abl=NS&fu=32768&bc=31&bz=1&ifi=1&uci=a!1&fsb=1&dtd=556 | net::ERR_ABORTED
+2026-11-10 14:34:48 [ERROR] REQUEST FAILED: GET https://ep2.adtrafficquality.google/sodar/sodar2.js | net::ERR_ABORTED
+2026-11-10 14:34:48 [INFO] PAGE NAVIGATED: https://www.automationexercise.com/test_cases
+2026-11-10 14:34:49 [ERROR] BROWSER CONSOLE ERROR: Mixed Content: The page at 'https://www.automationexercise.com/test_cases' was loaded over HTTPS, but requested an insecure stylesheet 'http://fonts.googleapis.com/css?family=Roboto:400,300,400italic,500,700,100'. This request has been blocked; the content must be served over HTTPS.
+2026-11-10 14:34:49 [ERROR] REQUEST FAILED: GET http://fonts.googleapis.com/css?family=Roboto:400,300,400italic,500,700,100 | mixed-content
+2026-11-10 14:34:49 [ERROR] BROWSER CONSOLE ERROR: Mixed Content: The page at 'https://www.automationexercise.com/test_cases' was loaded over HTTPS, but requested an insecure stylesheet 'http://fonts.googleapis.com/css?family=Open+Sans:400,800,300,600,700'. This request has been blocked; the content must be served over HTTPS.
+2026-11-10 14:34:49 [ERROR] REQUEST FAILED: GET http://fonts.googleapis.com/css?family=Open+Sans:400,800,300,600,700 | mixed-content
+2026-11-10 14:34:49 [ERROR] BROWSER CONSOLE ERROR: Mixed Content: The page at 'https://www.automationexercise.com/test_cases' was loaded over HTTPS, but requested an insecure stylesheet 'http://fonts.googleapis.com/css?family=Abel'. This request has been blocked; the content must be served over HTTPS.
+2026-11-10 14:34:49 [ERROR] REQUEST FAILED: GET http://fonts.googleapis.com/css?family=Abel | mixed-content
+2026-11-10 14:34:50 [ERROR] REQUEST FAILED: GET https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-1677597403311019&output=html&adk=1812271804&adf=3025194257&abgtt=6&lmt=1794301489&plat=3%3A16%2C4%3A16%2C9%3A134250504%2C16%3A8388608%2C17%3A32%2C24%3A32%2C25%3A32%2C30%3A1081344%2C32%3A32%2C41%3A32%2C42%3A32%2C43%3A32%2C44%3A32&format=0x0&url=https%3A%2F%2Fwww.automationexercise.com%2Ftest_cases&pra=5&aiof=14&asro=0&itsi=0&aimartd=4&aieuf=1&aicrs=1&uach=WyJXaW5kb3dzIiwiMTkuMC4wIiwieDg2IiwiIiwiMTU2LjAuODA3OC44MSIsbnVsbCwwLG51bGwsIjY0IixbWyJOb3Q6QS1CcmFuZCIsIjguMC4wLjAiXSxbIkNocm9taXVtIiwiMTU2LjAuODA3OC44MSJdLFsiR29vZ2xlIENocm9tZSIsIjE1Ni4wLjgwNzguODEiXV0sMF0.&dt=1794301489104&bpp=22&bdt=412&idt=806&shv=r20261109&mjsv=m202611050101&ptt=9&saldr=aa&abxe=1&cookie=ID%3Df918e16d03929c61%3AT%3D1794301473%3ART%3D1794301473%3AS%3DALNI_Ma2bbKEH_hUmj1j9y70ywyU-RuKLg&gpic=UID%3D000015d687a8fbc9%3AT%3D1794301473%3ART%3D1794301473%3AS%3DALNI_MY9jGMcEeBtjCWbGDHtP0ob5GBOJg&eo_id_str=ID%3D5559a3a72e3c6ac0%3AT%3D1794301473%3ART%3D1794301473%3AS%3DAA-AfjbNPAuYFcnnYtLUCmJ-qQqC&nras=1&correlator=2146229349921&frm=20&pv=2&u_tz=330&u_his=8&u_h=864&u_w=1536&u_ah=816&u_aw=1536&u_cd=24&u_sd=1.25&dmc=16&adx=-12245933&ady=-12245933&biw=1521&bih=730&scr_x=0&scr_y=0&eid=95404663%2C95407882%2C95408908%2C95409066%2C122882054%2C122882056%2C95405501&oid=2&pvsid=6451841078125845&tmod=1031000025&uas=1&nvt=1&fsapi=1&ref=https%3A%2F%2Fwww.automationexercise.com%2Flogin&fc=1920&brdim=0%2C0%2C0%2C0%2C1536%2C0%2C1536%2C816%2C1536%2C730&vis=1&rsz=%7C%7Cs%7C&abl=NS&fu=32768&bc=31&bz=1&ifi=1&uci=a!1&fsb=1&dtd=877 | net::ERR_ABORTED
+2026-11-10 14:34:50 [ERROR] REQUEST FAILED: GET https://googleads.g.doubleclick.net/pagead/html/r20261109/r20190131/zrt_lookup_fy2021.html | net::ERR_ABORTED
+2026-11-10 14:34:50 [ERROR] REQUEST FAILED: GET https://ep1.adtrafficquality.google/getconfig/sodar?sv=200&tid=gda&tv=r20261109&st=env&sjk=6451841078125845 | net::ERR_ABORTED
+2026-11-10 14:34:50 [INFO] PAGE NAVIGATED: https://www.automationexercise.com/api_list
+2026-11-10 14:34:50 [ERROR] BROWSER CONSOLE ERROR: Mixed Content: The page at 'https://www.automationexercise.com/api_list' was loaded over HTTPS, but requested an insecure stylesheet 'http://fonts.googleapis.com/css?family=Roboto:400,300,400italic,500,700,100'. This request has been blocked; the content must be served over HTTPS.
+2026-11-10 14:34:50 [ERROR] REQUEST FAILED: GET http://fonts.googleapis.com/css?family=Roboto:400,300,400italic,500,700,100 | mixed-content
+2026-11-10 14:34:50 [ERROR] BROWSER CONSOLE ERROR: Mixed Content: The page at 'https://www.automationexercise.com/api_list' was loaded over HTTPS, but requested an insecure stylesheet 'http://fonts.googleapis.com/css?family=Open+Sans:400,800,300,600,700'. This request has been blocked; the content must be served over HTTPS.
+2026-11-10 14:34:50 [ERROR] REQUEST FAILED: GET http://fonts.googleapis.com/css?family=Open+Sans:400,800,300,600,700 | mixed-content
+2026-11-10 14:34:50 [ERROR] BROWSER CONSOLE ERROR: Mixed Content: The page at 'https://www.automationexercise.com/api_list' was loaded over HTTPS, but requested an insecure stylesheet 'http://fonts.googleapis.com/css?family=Abel'. This request has been blocked; the content must be served over HTTPS.
+2026-11-10 14:34:50 [ERROR] REQUEST FAILED: GET http://fonts.googleapis.com/css?family=Abel | mixed-content
+2026-11-10 14:34:50 [ERROR] REQUEST FAILED: GET https://www.automationexercise.com/static/js/jquery.js | net::ERR_ABORTED
+2026-11-10 14:34:51 [ERROR] REQUEST FAILED: GET https://pagead2.googlesyndication.com/pagead/managed/js/adsense/m202611050101/show_ads_impl_fy2021.js?bust=122882151 | net::ERR_ABORTED
+2026-11-10 14:34:51 [INFO] PAGE NAVIGATED: https://www.automationexercise.com/contact_us
+2026-11-10 14:34:51 [INFO] TEST PASSED: TC01:-Validating the mutiple click button and skip button @regression
+2026-11-10 14:34:51 [INFO] EXECUTION TIME: 18820 ms
+2026-11-10 14:34:51 [INFO] ============================================
+2026-11-10 14:34:51 [ERROR] BROWSER CONSOLE ERROR: Mixed Content: The page at 'https://www.automationexercise.com/contact_us' was loaded over HTTPS, but requested an insecure stylesheet 'http://fonts.googleapis.com/css?family=Roboto:400,300,400italic,500,700,100'. This request has been blocked; the content must be served over HTTPS.
+2026-11-10 14:34:51 [ERROR] REQUEST FAILED: GET http://fonts.googleapis.com/css?family=Roboto:400,300,400italic,500,700,100 | mixed-content
+2026-11-10 14:34:51 [ERROR] BROWSER CONSOLE ERROR: Mixed Content: The page at 'https://www.automationexercise.com/contact_us' was loaded over HTTPS, but requested an insecure stylesheet 'http://fonts.googleapis.com/css?family=Open+Sans:400,800,300,600,700'. This request has been blocked; the content must be served over HTTPS.
+2026-11-10 14:34:51 [ERROR] REQUEST FAILED: GET http://fonts.googleapis.com/css?family=Open+Sans:400,800,300,600,700 | mixed-content
+2026-11-10 14:34:51 [ERROR] BROWSER CONSOLE ERROR: Mixed Content: The page at 'https://www.automationexercise.com/contact_us' was loaded over HTTPS, but requested an insecure stylesheet 'http://fonts.googleapis.com/css?family=Abel'. This request has been blocked; the content must be served over HTTPS.
+2026-11-10 14:34:51 [ERROR] REQUEST FAILED: GET http://fonts.googleapis.com/css?family=Abel | mixed-content
+2026-11-10 14:34:52 [WARN] BROWSER CONSOLE WARNING: Google Maps JavaScript API has been loaded directly without loading=async. This can result in suboptimal performance. For best-practice loading patterns please see https://goo.gle/js-api-loading
+2026-11-10 14:34:52 [ERROR] REQUEST FAILED: GET https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-1677597403311019&output=html&adk=1812271804&adf=3025194257&abgtt=6&lmt=1794301492&plat=3%3A16%2C4%3A16%2C9%3A134250504%2C16%3A8388608%2C17%3A32%2C24%3A32%2C25%3A32%2C30%3A1081344%2C32%3A32%2C41%3A32%2C42%3A32%2C43%3A32%2C44%3A32&format=0x0&url=https%3A%2F%2Fwww.automationexercise.com%2Fcontact_us&pra=5&aiof=14&asro=0&itsi=0&aimartd=4&uach=WyJXaW5kb3dzIiwiMTkuMC4wIiwieDg2IiwiIiwiMTU2LjAuODA3OC44MSIsbnVsbCwwLG51bGwsIjY0IixbWyJOb3Q6QS1CcmFuZCIsIjguMC4wLjAiXSxbIkNocm9taXVtIiwiMTU2LjAuODA3OC44MSJdLFsiR29vZ2xlIENocm9tZSIsIjE1Ni4wLjgwNzguODEiXV0sMF0.&dt=1794301492128&bpp=13&bdt=780&idt=156&shv=r20261109&mjsv=m202611050101&ptt=9&saldr=aa&abxe=1&cookie=ID%3Df918e16d03929c61%3AT%3D1794301473%3ART%3D1794301473%3AS%3DALNI_Ma2bbKEH_hUmj1j9y70ywyU-RuKLg&gpic=UID%3D000015d687a8fbc9%3AT%3D1794301473%3ART%3D1794301473%3AS%3DALNI_MY9jGMcEeBtjCWbGDHtP0ob5GBOJg&eo_id_str=ID%3D5559a3a72e3c6ac0%3AT%3D1794301473%3ART%3D1794301473%3AS%3DAA-AfjbNPAuYFcnnYtLUCmJ-qQqC&nras=1&correlator=8546068373962&frm=20&pv=2&u_tz=330&u_his=10&u_h=864&u_w=1536&u_ah=816&u_aw=1536&u_cd=24&u_sd=1.25&dmc=16&adx=-12245933&ady=-12245933&biw=1521&bih=730&scr_x=0&scr_y=0&eid=95404665%2C95407880%2C95408909%2C95409066%2C122882147%2C95407167&oid=2&pvsid=3930642710638332&tmod=622644816&uas=3&nvt=1&fsapi=1&ref=https%3A%2F%2Fwww.automationexercise.com%2Fapi_list&fc=1920&brdim=0%2C0%2C0%2C0%2C1536%2C0%2C1536%2C816%2C1536%2C730&vis=1&rsz=%7C%7Cs%7C&abl=NS&fu=32768&bc=31&bz=1&ifi=1&uci=a!1&fsb=1&dtd=190 | net::ERR_ABORTED
+2026-11-10 14:34:54 [INFO] TEST PASSED: TC005:-Set both slider values from variables
+2026-11-10 14:34:54 [INFO] EXECUTION TIME: 21712 ms
+2026-11-10 14:34:54 [INFO] ============================================
+2026-11-10 14:40:19 [INFO] ==========================================
+2026-11-10 14:40:19 [INFO] ==========================================
+2026-11-10 14:40:19 [INFO] UI TEST STARTED: TC004:-Validating below scenarios 
+2026-11-10 14:40:19 [INFO] BROWSER: Chrome
+2026-11-10 14:40:19 [INFO] RETRY: 0
+2026-11-10 14:40:19 [INFO] UI TEST STARTED: TC002:-Handleing the alert Pop-up 
+2026-11-10 14:40:19 [INFO] BROWSER: Chrome
+2026-11-10 14:40:19 [INFO] RETRY: 0
+2026-11-10 14:40:19 [INFO] ==========================================
+2026-11-10 14:40:19 [INFO] UI TEST STARTED: TC005:-Set both slider values from variables
+2026-11-10 14:40:19 [INFO] BROWSER: Chrome
+2026-11-10 14:40:19 [INFO] RETRY: 0
+2026-11-10 14:40:19 [INFO] ==========================================
+2026-11-10 14:40:19 [INFO] UI TEST STARTED: TC003:-Validating few scenarios 
+2026-11-10 14:40:19 [INFO] BROWSER: Chrome
+2026-11-10 14:40:19 [INFO] RETRY: 0
+2026-11-10 14:40:19 [INFO] ==========================================
+2026-11-10 14:40:19 [INFO] UI TEST STARTED: TC01:-Validating the mutiple click button and skip button @regression
+2026-11-10 14:40:19 [INFO] BROWSER: Chrome
+2026-11-10 14:40:19 [INFO] RETRY: 0
+2026-11-10 14:40:21 [INFO] UI NAVIGATION: https://testautomationpractice.blogspot.com/p/playwrightpractice.html
+2026-11-10 14:40:21 [INFO] UI NAVIGATION: https://testautomationpractice.blogspot.com/
+2026-11-10 14:40:21 [INFO] UI NAVIGATION: https://testautomationpractice.blogspot.com/p/playwrightpractice.html
+2026-11-10 14:40:21 [INFO] UI NAVIGATION: https://testautomationpractice.blogspot.com/
+2026-11-10 14:40:21 [INFO] UI NAVIGATION: https://www.automationexercise.com/
+2026-11-10 14:40:24 [INFO] UI NAVIGATION: https://www.automationexercise.com/
+2026-11-10 14:40:25 [INFO] UI TEST PASSED: TC002:-Handleing the alert Pop-up 
+2026-11-10 14:40:25 [INFO] EXECUTION TIME: 6345 ms
+2026-11-10 14:40:25 [INFO] ==========================================
+2026-11-10 14:40:28 [INFO] UI NAVIGATION: https://www.automationexercise.com/
+2026-11-10 14:40:30 [INFO] UI TEST PASSED: TC004:-Validating below scenarios 
+2026-11-10 14:40:30 [INFO] EXECUTION TIME: 11543 ms
+2026-11-10 14:40:30 [INFO] ==========================================
+2026-11-10 14:40:31 [INFO] UI NAVIGATION: https://www.automationexercise.com/products
+2026-11-10 14:40:34 [INFO] UI NAVIGATION: https://www.automationexercise.com/view_cart
+2026-11-10 14:40:35 [INFO] UI TEST PASSED: TC003:-Validating few scenarios 
+2026-11-10 14:40:35 [INFO] EXECUTION TIME: 16618 ms
+2026-11-10 14:40:35 [INFO] ==========================================
+2026-11-10 14:40:35 [INFO] UI NAVIGATION: https://www.automationexercise.com/login
+2026-11-10 14:40:36 [INFO] UI NAVIGATION: https://www.automationexercise.com/test_cases
+2026-11-10 14:40:38 [INFO] UI NAVIGATION: https://www.automationexercise.com/api_list
+2026-11-10 14:40:39 [INFO] UI NAVIGATION: https://www.automationexercise.com/contact_us
+2026-11-10 14:40:40 [INFO] UI TEST PASSED: TC01:-Validating the mutiple click button and skip button @regression
+2026-11-10 14:40:40 [INFO] EXECUTION TIME: 21270 ms
+2026-11-10 14:40:40 [INFO] ==========================================
+2026-11-10 14:40:43 [INFO] UI TEST PASSED: TC005:-Set both slider values from variables
+2026-11-10 14:40:43 [INFO] EXECUTION TIME: 24156 ms
+2026-11-10 14:40:43 [INFO] ==========================================
+2026-11-10 14:48:47 [INFO] ==========================================
+2026-11-10 14:48:47 [INFO] UI TEST STARTED: TC005:-Set both slider values from variables
+2026-11-10 14:48:47 [INFO] BROWSER: Chrome
+2026-11-10 14:48:47 [INFO] RETRY: 0
+2026-11-10 14:48:49 [INFO] UI NAVIGATION: https://testautomationpractice.blogspot.com/p/playwrightpractice.html
+2026-11-10 14:49:06 [INFO] UI TEST PASSED: TC005:-Set both slider values from variables
+2026-11-10 14:49:06 [INFO] EXECUTION TIME: 19084 ms
+2026-11-10 14:49:06 [INFO] ==========================================
+2026-11-10 14:49:28 [INFO] ==========================================
+2026-11-10 14:49:28 [INFO] UI TEST STARTED: TC004:-Validating below scenarios 
+2026-11-10 14:49:28 [INFO] BROWSER: Chrome
+2026-11-10 14:49:28 [INFO] RETRY: 0
+2026-11-10 14:49:28 [INFO] UI NAVIGATION: https://testautomationpractice.blogspot.com/p/playwrightpractice.html
+2026-11-10 14:49:37 [INFO] UI TEST PASSED: TC004:-Validating below scenarios 
+2026-11-10 14:49:37 [INFO] EXECUTION TIME: 10036 ms
+2026-11-10 14:49:37 [INFO] ==========================================
+2026-11-10 14:56:07 [INFO] ==========================================
+2026-11-10 14:56:07 [INFO] UI TEST STARTED: TC004:-Validating below scenarios 
+2026-11-10 14:56:07 [INFO] BROWSER: Chrome
+2026-11-10 14:56:07 [INFO] WORKER: 0
+2026-11-10 14:56:07 [INFO] RETRY: 0
+2026-11-10 14:56:07 [INFO] ACTION STARTED: goto | [object Object]
+2026-11-10 14:56:10 [INFO] UI NAVIGATION: https://testautomationpractice.blogspot.com/p/playwrightpractice.html
+2026-11-10 14:56:13 [INFO] ACTION PASSED: goto | [object Object]
+2026-11-10 14:56:13 [INFO] ACTION STARTED: click | getByRole('button', { name: 'START' })
+2026-11-10 14:56:14 [INFO] ACTION PASSED: click | getByRole('button', { name: 'START' })
+2026-11-10 14:56:14 [INFO] ACTION STARTED: scrollIntoViewIfNeeded | getByRole('button', { name: 'Point Me' })
+2026-11-10 14:56:14 [INFO] ACTION PASSED: scrollIntoViewIfNeeded | getByRole('button', { name: 'Point Me' })
+2026-11-10 14:56:14 [INFO] ACTION STARTED: hover | getByRole('button', { name: 'Point Me' })
+2026-11-10 14:56:14 [INFO] ACTION PASSED: hover | getByRole('button', { name: 'Point Me' })
+2026-11-10 14:56:14 [INFO] ACTION STARTED: hover | locator('//div[@class=\'dropdown\']//div[@class=\'dropdown-content\']//a').first()
+2026-11-10 14:56:15 [INFO] ACTION PASSED: hover | locator('//div[@class=\'dropdown\']//div[@class=\'dropdown-content\']//a').first()
+2026-11-10 14:56:15 [INFO] ACTION STARTED: hover | locator('//div[@class=\'dropdown\']//div[@class=\'dropdown-content\']//a').nth(1)
+2026-11-10 14:56:15 [INFO] ACTION PASSED: hover | locator('//div[@class=\'dropdown\']//div[@class=\'dropdown-content\']//a').nth(1)
+2026-11-10 14:56:15 [INFO] ACTION STARTED: click | locator('//input[@id=\'field1\']')
+2026-11-10 14:56:16 [INFO] ACTION PASSED: click | locator('//input[@id=\'field1\']')
+2026-11-10 14:56:16 [INFO] ACTION STARTED: clear | locator('//input[@id=\'field1\']')
+2026-11-10 14:56:16 [INFO] ACTION STARTED: fill | locator('//input[@id=\'field1\']') [input value omitted]
+2026-11-10 14:56:16 [INFO] ACTION PASSED: fill | locator('//input[@id=\'field1\']')
+2026-11-10 14:56:16 [INFO] ACTION PASSED: clear | locator('//input[@id=\'field1\']')
+2026-11-10 14:56:16 [INFO] ACTION STARTED: fill | locator('//input[@id=\'field1\']') [input value omitted]
+2026-11-10 14:56:16 [INFO] ACTION PASSED: fill | locator('//input[@id=\'field1\']')
+2026-11-10 14:56:17 [INFO] ACTION STARTED: dblclick | getByRole('button', { name: 'Copy Text' })
+2026-11-10 14:56:17 [INFO] ACTION PASSED: dblclick | getByRole('button', { name: 'Copy Text' })
+2026-11-10 14:56:17 [INFO] ACTION STARTED: dragTo | getByText('Drag me to my target', { exact: true })
+2026-11-10 14:56:18 [INFO] ACTION PASSED: dragTo | getByText('Drag me to my target', { exact: true })
+2026-11-10 14:56:18 [INFO] ACTION STARTED: scrollIntoViewIfNeeded | getByText('Scrolling DropDown', { exact: true })
+2026-11-10 14:56:18 [INFO] ACTION PASSED: scrollIntoViewIfNeeded | getByText('Scrolling DropDown', { exact: true })
+2026-11-10 14:56:18 [INFO] ACTION STARTED: click | getByPlaceholder('Select an item')
+2026-11-10 14:56:19 [INFO] ACTION PASSED: click | getByPlaceholder('Select an item')
+2026-11-10 14:56:19 [INFO] ACTION STARTED: click | getByText('Item 6', { exact: true })
+2026-11-10 14:56:19 [INFO] ACTION PASSED: click | getByText('Item 6', { exact: true })
+2026-11-10 14:56:19 [INFO] UI TEST PASSED: TC004:-Validating below scenarios 
+2026-11-10 14:56:19 [INFO] EXECUTION TIME: 12043 ms
+2026-11-10 14:56:19 [INFO] ==========================================
+2026-11-10 14:57:18 [INFO] ==========================================
+2026-11-10 14:57:18 [INFO] UI TEST STARTED: has title
+2026-11-10 14:57:18 [INFO] BROWSER: Chrome
+2026-11-10 14:57:18 [INFO] WORKER: 0
+2026-11-10 14:57:18 [INFO] RETRY: 0
+2026-11-10 14:57:18 [INFO] ACTION STARTED: goto | [object Object]
+2026-11-10 14:57:19 [INFO] UI NAVIGATION: https://www.att.com/
+2026-11-10 14:57:22 [INFO] UI NAVIGATION: https://www.att.com/
+2026-11-10 14:57:26 [ERROR] UI JAVASCRIPT ERROR: Loading chunk 500 failed.
+(error: https://www.att.com/OOB8MN3lj/Mfl_/Wjkcg/uYNa4Sa5tEOimL1uGu/fhE3IRYeBQ/ehlweA/500.bc3a704070a4861cdd83.js)
+2026-11-10 14:57:26 [INFO] ACTION PASSED: goto | [object Object]
+2026-11-10 14:57:26 [INFO] ACTION STARTED: click | locator('//li//button[@data-menu=\'Shop\']')
+2026-11-10 14:57:28 [INFO] ACTION PASSED: click | locator('//li//button[@data-menu=\'Shop\']')
+2026-11-10 14:57:28 [INFO] ACTION STARTED: click | locator('//li//a[@data-category=\'Devices & accessories\']')
+2026-11-10 14:57:28 [INFO] ACTION PASSED: click | locator('//li//a[@data-category=\'Devices & accessories\']')
+2026-11-10 14:57:28 [INFO] ACTION STARTED: click | locator('xpath=(//li//a[@id=\'Phones-link\'])[1]')
+2026-11-10 14:57:31 [INFO] UI NAVIGATION: https://www.att.com/buy/phones/
+2026-11-10 14:57:32 [INFO] ACTION PASSED: click | locator('xpath=(//li//a[@id=\'Phones-link\'])[1]')
+2026-11-10 14:57:34 [INFO] UI NAVIGATION: https://www.att.com/buy/phones/
+2026-11-10 14:57:35 [ERROR] UI JAVASCRIPT ERROR: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+2026-11-10 14:57:35 [ERROR] UI JAVASCRIPT ERROR: Minified React error #425; visit https://reactjs.org/docs/error-decoder.html?invariant=425 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+2026-11-10 14:57:35 [ERROR] UI JAVASCRIPT ERROR: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+2026-11-10 14:57:35 [ERROR] UI JAVASCRIPT ERROR: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+2026-11-10 14:57:35 [ERROR] UI JAVASCRIPT ERROR: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+2026-11-10 14:57:35 [ERROR] UI JAVASCRIPT ERROR: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+2026-11-10 14:57:35 [ERROR] UI JAVASCRIPT ERROR: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+2026-11-10 14:57:35 [ERROR] UI JAVASCRIPT ERROR: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+2026-11-10 14:57:35 [ERROR] UI JAVASCRIPT ERROR: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+2026-11-10 14:57:35 [ERROR] UI JAVASCRIPT ERROR: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+2026-11-10 14:57:35 [ERROR] UI JAVASCRIPT ERROR: Minified React error #423; visit https://reactjs.org/docs/error-decoder.html?invariant=423 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+2026-11-10 14:57:39 [ERROR] UI JAVASCRIPT ERROR: Loading chunk 500 failed.
+(error: https://www.att.com/OOB8MN3lj/Mfl_/Wjkcg/uYNa4Sa5tEOimL1uGu/fhE3IRYeBQ/ehlweA/500.bc3a704070a4861cdd83.js)
+2026-11-10 14:57:41 [ERROR] UI TEST FAILED: has title
+2026-11-10 14:57:41 [INFO] EXECUTION TIME: 22046 ms
+2026-11-10 14:57:41 [ERROR] ERROR DETAILS: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoHaveText[2m([22m[32mexpected[39m[2m)[22m failed
+
+Locator:  locator('//a[@id=\'_productcard_acc_sku54217v4\']')
+Expected: [32m""[39m
+Received: [31m"iPhone 17 Pro Max"[39m
+Timeout:  5000ms
+
+Call log:
+[2m  - Expect "toHaveText" with timeout 5000ms[22m
+[2m  - waiting for locator('//a[@id=\'_productcard_acc_sku54217v4\']')[22m
+[2m    6 × locator resolved to <a id="_productcard_acc_sku54217v4" href="/buy/phones/apple-iphone-17-pro-max.html" class="link-text2 block color-ui-black z1 cta-overlay productCardOverlay">…</a>[22m
+[2m      - unexpected value "iPhone 17 Pro Max"[22m
+
+    at D:\project\P1_Project1\tests\example.spec.ts:12:72
+2026-11-10 14:57:41 [INFO] ==========================================
+2026-11-11 13:08:12 [INFO] ==========================================
+2026-11-11 13:08:12 [INFO] UI TEST STARTED: TC006:- Validating the table scenarios 
+2026-11-11 13:08:12 [INFO] BROWSER: Chrome
+2026-11-11 13:08:12 [INFO] WORKER: 0
+2026-11-11 13:08:12 [INFO] RETRY: 0
+2026-11-11 13:08:12 [INFO] ACTION STARTED: goto | [object Object]
+2026-11-11 13:08:14 [INFO] UI NAVIGATION: https://testautomationpractice.blogspot.com/p/playwrightpractice.html
+2026-11-11 13:08:17 [INFO] ACTION PASSED: goto | [object Object]
+2026-11-11 13:08:17 [INFO] ACTION STARTED: scrollIntoViewIfNeeded | getByText('Static Web Table', { exact: true })
+2026-11-11 13:08:17 [INFO] ACTION PASSED: scrollIntoViewIfNeeded | getByText('Static Web Table', { exact: true })
+2026-11-11 13:08:17 [INFO] UI TEST PASSED: TC006:- Validating the table scenarios 
+2026-11-11 13:08:17 [INFO] EXECUTION TIME: 5405 ms
+2026-11-11 13:08:17 [INFO] ==========================================
+2026-11-11 13:26:56 [INFO] ==========================================
+2026-11-11 13:26:56 [INFO] UI TEST STARTED: validating the Table scenarios
+2026-11-11 13:26:56 [INFO] BROWSER: Chrome
+2026-11-11 13:26:56 [INFO] WORKER: 0
+2026-11-11 13:26:56 [INFO] RETRY: 0
+2026-11-11 13:26:56 [INFO] ACTION STARTED: goto | [object Object]
+2026-11-11 13:26:56 [INFO] UI NAVIGATION: https://practicetestautomation.com/practice-test-table/
+2026-11-11 13:26:57 [INFO] ACTION PASSED: goto | [object Object]
+2026-11-11 13:27:00 [INFO] UI TEST PASSED: validating the Table scenarios
+2026-11-11 13:27:00 [INFO] EXECUTION TIME: 5703 ms
+2026-11-11 13:27:00 [INFO] ==========================================
+2026-11-14 12:29:40 [INFO] ==========================================
+2026-11-14 12:29:40 [INFO] UI TEST STARTED: has title
+2026-11-14 12:29:40 [INFO] BROWSER: Chrome
+2026-11-14 12:29:40 [INFO] WORKER: 5
+2026-11-14 12:29:40 [INFO] RETRY: 0
+2026-11-14 12:29:40 [INFO] ACTION STARTED: goto | [object Object]
+2026-11-14 12:29:40 [INFO] UI NAVIGATION: https://www.att.com/
+2026-11-14 12:29:41 [INFO] UI NAVIGATION: https://www.att.com/
+2026-11-14 12:29:47 [ERROR] UI JAVASCRIPT ERROR: Loading chunk 500 failed.
+(error: https://www.att.com/hHnp3-/5/q/PymuE84ATA/Yca72bh9YS3cm2LO/LGsGQUshZAg/XG/500.bc3a704070a4861cdd83.js)
+2026-11-14 12:29:48 [INFO] ACTION PASSED: goto | [object Object]
+2026-11-14 12:29:49 [INFO] ACTION STARTED: click | locator('//li//button[@data-menu=\'Shop\']')
+2026-11-14 12:29:51 [ERROR] UI JAVASCRIPT ERROR: Unexpected end of JSON input
+2026-11-14 12:29:53 [INFO] ACTION PASSED: click | locator('//li//button[@data-menu=\'Shop\']')
+2026-11-14 12:29:53 [INFO] ACTION STARTED: click | locator('//li//a[@data-category=\'Devices & accessories\']')
+2026-11-14 12:29:55 [INFO] ACTION PASSED: click | locator('//li//a[@data-category=\'Devices & accessories\']')
+2026-11-14 12:29:55 [INFO] ACTION STARTED: click | locator('xpath=(//li//a[@id=\'Phones-link\'])[1]')
+2026-11-14 12:29:58 [INFO] UI NAVIGATION: https://www.att.com/buy/phones/
+2026-11-14 12:29:59 [INFO] ACTION PASSED: click | locator('xpath=(//li//a[@id=\'Phones-link\'])[1]')
+2026-11-14 12:30:04 [INFO] UI NAVIGATION: https://www.att.com/buy/phones/
+2026-11-14 12:30:05 [ERROR] UI JAVASCRIPT ERROR: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+2026-11-14 12:30:06 [ERROR] UI JAVASCRIPT ERROR: Minified React error #425; visit https://reactjs.org/docs/error-decoder.html?invariant=425 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+2026-11-14 12:30:06 [ERROR] UI JAVASCRIPT ERROR: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+2026-11-14 12:30:06 [ERROR] UI JAVASCRIPT ERROR: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+2026-11-14 12:30:06 [ERROR] UI JAVASCRIPT ERROR: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+2026-11-14 12:30:06 [ERROR] UI JAVASCRIPT ERROR: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+2026-11-14 12:30:06 [ERROR] UI JAVASCRIPT ERROR: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+2026-11-14 12:30:06 [ERROR] UI JAVASCRIPT ERROR: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+2026-11-14 12:30:06 [ERROR] UI JAVASCRIPT ERROR: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+2026-11-14 12:30:06 [ERROR] UI JAVASCRIPT ERROR: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+2026-11-14 12:30:06 [ERROR] UI JAVASCRIPT ERROR: Minified React error #423; visit https://reactjs.org/docs/error-decoder.html?invariant=423 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+2026-11-14 12:30:09 [WARN] UI TEST STATUS: timedOut
+2026-11-14 12:30:09 [INFO] EXECUTION TIME: 30010 ms
+2026-11-14 12:30:09 [ERROR] ERROR DETAILS: [31mTest timeout of 30000ms exceeded.[39m
+2026-11-14 12:30:09 [INFO] ==========================================
+2026-11-14 12:30:12 [ERROR] UI JAVASCRIPT ERROR: Loading chunk 500 failed.
+(error: https://www.att.com/hHnp3-/5/q/PymuE84ATA/Yca72bh9YS3cm2LO/LGsGQUshZAg/XG/500.bc3a704070a4861cdd83.js)
+2026-11-14 12:30:34 [INFO] ==========================================
+2026-11-14 12:30:34 [INFO] UI TEST STARTED: validating the multiple URLs
+2026-11-14 12:30:34 [INFO] BROWSER: Chrome
+2026-11-14 12:30:34 [INFO] WORKER: 8
+2026-11-14 12:30:34 [INFO] RETRY: 0
+2026-11-14 12:30:35 [INFO] ==========================================
+2026-11-14 12:30:35 [INFO] UI TEST STARTED: Updating the naukri profile
+2026-11-14 12:30:35 [INFO] BROWSER: Chrome
+2026-11-14 12:30:35 [INFO] WORKER: 0
+2026-11-14 12:30:35 [INFO] RETRY: 0
+2026-11-14 12:30:35 [INFO] ACTION STARTED: goto | [object Object]
+2026-11-14 12:30:35 [INFO] UI TEST PASSED: validating the multiple URLs
+2026-11-14 12:30:35 [INFO] EXECUTION TIME: 1027 ms
+2026-11-14 12:30:35 [INFO] ==========================================
+2026-11-14 12:30:35 [INFO] ==========================================
+2026-11-14 12:30:35 [INFO] UI TEST STARTED: validating the Table scenarios
+2026-11-14 12:30:35 [INFO] BROWSER: Chrome
+2026-11-14 12:30:35 [INFO] WORKER: 7
+2026-11-14 12:30:35 [INFO] RETRY: 0
+2026-11-14 12:30:35 [INFO] ACTION STARTED: goto | [object Object]
+2026-11-14 12:30:35 [INFO] UI NAVIGATION: https://www.naukri.com/
+2026-11-14 12:30:35 [INFO] ==========================================
+2026-11-14 12:30:35 [INFO] UI TEST STARTED: Test Case 7: Sort by Enrollments in ascending numeric order
+2026-11-14 12:30:35 [INFO] BROWSER: Chrome
+2026-11-14 12:30:35 [INFO] WORKER: 8
+2026-11-14 12:30:35 [INFO] RETRY: 0
+2026-11-14 12:30:35 [INFO] ACTION STARTED: goto | [object Object]
+2026-11-14 12:30:35 [INFO] UI NAVIGATION: https://practicetestautomation.com/practice-test-table/
+2026-11-14 12:30:36 [INFO] ==========================================
+2026-11-14 12:30:36 [INFO] UI TEST STARTED: validating the Table scenarios with the help of locator.allTextContents()
+2026-11-14 12:30:36 [INFO] BROWSER: Chrome
+2026-11-14 12:30:36 [INFO] WORKER: 2
+2026-11-14 12:30:36 [INFO] RETRY: 0
+2026-11-14 12:30:36 [INFO] ACTION STARTED: goto | [object Object]
+2026-11-14 12:30:36 [INFO] UI NAVIGATION: https://practicetestautomation.com/practice-test-table/
+2026-11-14 12:30:36 [INFO] UI NAVIGATION: https://practicetestautomation.com/practice-test-table/
+2026-11-14 12:30:36 [INFO] ==========================================
+2026-11-14 12:30:36 [INFO] UI TEST STARTED: validating the multiple URLs with the help of playwright
+2026-11-14 12:30:36 [INFO] BROWSER: Chrome
+2026-11-14 12:30:36 [INFO] WORKER: 6
+2026-11-14 12:30:36 [INFO] RETRY: 0
+2026-11-14 12:30:36 [INFO] UI TEST PASSED: validating the multiple URLs with the help of playwright
+2026-11-14 12:30:36 [INFO] EXECUTION TIME: 474 ms
+2026-11-14 12:30:36 [INFO] ==========================================
+2026-11-14 12:30:36 [INFO] ACTION PASSED: goto | [object Object]
+2026-11-14 12:30:37 [INFO] ACTION PASSED: goto | [object Object]
+2026-11-14 12:30:37 [INFO] ACTION PASSED: goto | [object Object]
+2026-11-14 12:30:37 [INFO] ACTION STARTED: selectOption | getByLabel('Sort by') [input value omitted]
+2026-11-14 12:30:37 [INFO] ACTION PASSED: selectOption | getByLabel('Sort by')
+2026-11-14 12:30:39 [INFO] UI TEST PASSED: Test Case 7: Sort by Enrollments in ascending numeric order
+2026-11-14 12:30:39 [INFO] EXECUTION TIME: 3313 ms
+2026-11-14 12:30:39 [INFO] ==========================================
+2026-11-14 12:30:39 [INFO] ACTION PASSED: goto | [object Object]
+2026-11-14 12:30:39 [INFO] ACTION STARTED: click | locator('//a[text()=\'Login\']')
+2026-11-14 12:30:39 [INFO] ACTION PASSED: click | locator('//a[text()=\'Login\']')
+2026-11-14 12:30:39 [INFO] ACTION STARTED: fill | getByRole('textbox', { name: 'Email ID / Username' }) [input value omitted]
+2026-11-14 12:30:40 [INFO] ACTION PASSED: fill | getByRole('textbox', { name: 'Email ID / Username' })
+2026-11-14 12:30:40 [INFO] ACTION STARTED: fill | locator('//input[@type=\'password\']') [input value omitted]
+2026-11-14 12:30:41 [INFO] ACTION PASSED: fill | locator('//input[@type=\'password\']')
+2026-11-14 12:30:41 [INFO] ACTION STARTED: click | locator('//button[@type=\'submit\']')
+2026-11-14 12:30:41 [INFO] UI NAVIGATION: https://www.naukri.com/mnjuser/homepage
+2026-11-14 12:30:41 [INFO] ACTION PASSED: click | locator('//button[@type=\'submit\']')
+2026-11-14 12:30:41 [INFO] ACTION STARTED: click | locator('//button[@aria-label=\'Open profile menu\']')
+2026-11-14 12:30:42 [INFO] UI NAVIGATION: https://www.naukri.com/mnjuser/homepage
+2026-11-14 12:30:47 [INFO] ACTION PASSED: click | locator('//button[@aria-label=\'Open profile menu\']')
+2026-11-14 12:30:47 [INFO] ACTION STARTED: click | locator('//a[text()=\'View & Update Profile\']')
+2026-11-14 12:30:48 [INFO] UI NAVIGATION: https://www.naukri.com/mnjuser/profile?id=&altresid
+2026-11-14 12:30:49 [INFO] ACTION PASSED: click | locator('//a[text()=\'View & Update Profile\']')
+2026-11-14 12:30:49 [INFO] UI NAVIGATION: https://www.naukri.com/mnjuser/profile?id=&altresid
+2026-11-14 12:30:49 [INFO] UI NAVIGATION: https://www.naukri.com/mnjuser/profile?id=&altresid
+2026-11-14 12:30:52 [INFO] UI TEST PASSED: Updating the naukri profile
+2026-11-14 12:30:52 [INFO] EXECUTION TIME: 16974 ms
+2026-11-14 12:30:52 [INFO] ==========================================
+2026-11-14 12:30:53 [INFO] UI TEST PASSED: validating the Table scenarios
+2026-11-14 12:30:53 [INFO] EXECUTION TIME: 19611 ms
+2026-11-14 12:30:53 [INFO] ==========================================
+2026-11-14 12:30:54 [INFO] UI TEST PASSED: validating the Table scenarios with the help of locator.allTextContents()
+2026-11-14 12:30:54 [INFO] EXECUTION TIME: 19990 ms
+2026-11-14 12:30:54 [INFO] ==========================================
+2026-11-14 12:30:58 [INFO] ==========================================
+2026-11-14 12:30:58 [INFO] ==========================================
+2026-11-14 12:30:58 [INFO] UI TEST STARTED: TC002:-Handleing the alert Pop-up 
+2026-11-14 12:30:58 [INFO] BROWSER: Chrome
+2026-11-14 12:30:58 [INFO] WORKER: 3
+2026-11-14 12:30:58 [INFO] RETRY: 0
+2026-11-14 12:30:58 [INFO] ACTION STARTED: goto | [object Object]
+2026-11-14 12:30:58 [INFO] UI TEST STARTED: TC003:-Validating few scenarios 
+2026-11-14 12:30:58 [INFO] BROWSER: Chrome
+2026-11-14 12:30:58 [INFO] WORKER: 4
+2026-11-14 12:30:58 [INFO] RETRY: 0
+2026-11-14 12:30:58 [INFO] ACTION STARTED: goto | [object Object]
+2026-11-14 12:30:58 [INFO] UI NAVIGATION: https://testautomationpractice.blogspot.com/
+2026-11-14 12:31:00 [INFO] UI NAVIGATION: https://testautomationpractice.blogspot.com/
+2026-11-14 12:31:02 [INFO] ACTION PASSED: goto | [object Object]
+2026-11-14 12:31:02 [INFO] ACTION STARTED: scrollIntoViewIfNeeded | getByRole('button', { name: 'Simple Alert' })
+2026-11-14 12:31:02 [INFO] ACTION STARTED: click | getByRole('button', { name: 'Simple Alert' })
+2026-11-14 12:31:03 [INFO] ACTION PASSED: goto | [object Object]
+2026-11-14 12:31:03 [INFO] ACTION STARTED: scrollIntoViewIfNeeded | getByRole('checkbox', { name: 'Sunday' })
+2026-11-14 12:31:03 [INFO] ACTION PASSED: scrollIntoViewIfNeeded | getByRole('button', { name: 'Simple Alert' })
+2026-11-14 12:31:03 [INFO] ACTION PASSED: click | getByRole('button', { name: 'Simple Alert' })
+2026-11-14 12:31:03 [INFO] ACTION STARTED: click | getByRole('button', { name: 'Confirmation Alert' })
+2026-11-14 12:31:03 [INFO] ACTION PASSED: scrollIntoViewIfNeeded | getByRole('checkbox', { name: 'Sunday' })
+2026-11-14 12:31:03 [INFO] ACTION STARTED: check | locator('//label[text()=\'Days:\']//following-sibling::div/input').first()
+2026-11-14 12:31:03 [INFO] ACTION PASSED: click | getByRole('button', { name: 'Confirmation Alert' })
+2026-11-14 12:31:03 [INFO] ACTION STARTED: click | getByRole('button', { name: 'Prompt Alert' })
+2026-11-14 12:31:04 [INFO] ACTION PASSED: check | locator('//label[text()=\'Days:\']//following-sibling::div/input').first()
+2026-11-14 12:31:04 [INFO] ACTION STARTED: check | locator('//label[text()=\'Days:\']//following-sibling::div/input').nth(1)
+2026-11-14 12:31:04 [INFO] ACTION PASSED: click | getByRole('button', { name: 'Prompt Alert' })
+2026-11-14 12:31:04 [INFO] UI TEST PASSED: TC002:-Handleing the alert Pop-up 
+2026-11-14 12:31:04 [INFO] EXECUTION TIME: 6437 ms
+2026-11-14 12:31:04 [INFO] ==========================================
+2026-11-14 12:31:04 [INFO] ACTION PASSED: check | locator('//label[text()=\'Days:\']//following-sibling::div/input').nth(1)
+2026-11-14 12:31:04 [INFO] ACTION STARTED: check | locator('//label[text()=\'Days:\']//following-sibling::div/input').nth(2)
+2026-11-14 12:31:04 [INFO] ACTION PASSED: check | locator('//label[text()=\'Days:\']//following-sibling::div/input').nth(2)
+2026-11-14 12:31:04 [INFO] ACTION STARTED: check | locator('//label[text()=\'Days:\']//following-sibling::div/input').nth(3)
+2026-11-14 12:31:05 [INFO] ACTION PASSED: check | locator('//label[text()=\'Days:\']//following-sibling::div/input').nth(3)
+2026-11-14 12:31:05 [INFO] ACTION STARTED: check | locator('//label[text()=\'Days:\']//following-sibling::div/input').nth(4)
+2026-11-14 12:31:05 [INFO] ACTION PASSED: check | locator('//label[text()=\'Days:\']//following-sibling::div/input').nth(4)
+2026-11-14 12:31:05 [INFO] ACTION STARTED: check | locator('//label[text()=\'Days:\']//following-sibling::div/input').nth(5)
+2026-11-14 12:31:06 [INFO] ACTION PASSED: check | locator('//label[text()=\'Days:\']//following-sibling::div/input').nth(5)
+2026-11-14 12:31:06 [INFO] ACTION STARTED: check | locator('//label[text()=\'Days:\']//following-sibling::div/input').nth(6)
+2026-11-14 12:31:06 [INFO] ACTION PASSED: check | locator('//label[text()=\'Days:\']//following-sibling::div/input').nth(6)
+2026-11-14 12:31:06 [INFO] ACTION STARTED: uncheck | locator('//label[text()=\'Days:\']//following-sibling::div/input').nth(6)
+2026-11-14 12:31:06 [INFO] ACTION PASSED: uncheck | locator('//label[text()=\'Days:\']//following-sibling::div/input').nth(6)
+2026-11-14 12:31:06 [INFO] ACTION STARTED: uncheck | locator('//label[text()=\'Days:\']//following-sibling::div/input').nth(5)
+2026-11-14 12:31:07 [INFO] ACTION PASSED: uncheck | locator('//label[text()=\'Days:\']//following-sibling::div/input').nth(5)
+2026-11-14 12:31:07 [INFO] ACTION STARTED: uncheck | locator('//label[text()=\'Days:\']//following-sibling::div/input').nth(4)
+2026-11-14 12:31:07 [INFO] ACTION PASSED: uncheck | locator('//label[text()=\'Days:\']//following-sibling::div/input').nth(4)
+2026-11-14 12:31:07 [INFO] ACTION STARTED: uncheck | locator('//label[text()=\'Days:\']//following-sibling::div/input').nth(3)
+2026-11-14 12:31:08 [INFO] ACTION PASSED: uncheck | locator('//label[text()=\'Days:\']//following-sibling::div/input').nth(3)
+2026-11-14 12:31:08 [INFO] ACTION STARTED: uncheck | locator('//label[text()=\'Days:\']//following-sibling::div/input').nth(2)
+2026-11-14 12:31:08 [INFO] ACTION PASSED: uncheck | locator('//label[text()=\'Days:\']//following-sibling::div/input').nth(2)
+2026-11-14 12:31:08 [INFO] ACTION STARTED: uncheck | locator('//label[text()=\'Days:\']//following-sibling::div/input').nth(1)
+2026-11-14 12:31:08 [INFO] ACTION PASSED: uncheck | locator('//label[text()=\'Days:\']//following-sibling::div/input').nth(1)
+2026-11-14 12:31:08 [INFO] ACTION STARTED: uncheck | locator('//label[text()=\'Days:\']//following-sibling::div/input').first()
+2026-11-14 12:31:09 [INFO] ACTION PASSED: uncheck | locator('//label[text()=\'Days:\']//following-sibling::div/input').first()
+2026-11-14 12:31:09 [INFO] ACTION STARTED: selectOption | getByRole('combobox', { name: 'Country:' }) [input value omitted]
+2026-11-14 12:31:09 [INFO] ACTION PASSED: selectOption | getByRole('combobox', { name: 'Country:' })
+2026-11-14 12:31:09 [INFO] UI TEST PASSED: TC003:-Validating few scenarios 
+2026-11-14 12:31:09 [INFO] EXECUTION TIME: 11785 ms
+2026-11-14 12:31:09 [INFO] ==========================================

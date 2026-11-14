@@ -1,9 +1,11 @@
+
 import { defineConfig } from '@playwright/test';
 import dotenv from 'dotenv';
 
 dotenv.config();
 
 export default defineConfig({
+
   // Location of test files
   testDir: './tests',
 
@@ -18,21 +20,27 @@ export default defineConfig({
 
   // Reporter
   reporter: [
-    ['html'],
+    ['html', { open: 'never' }],
     ['list']
   ],
 
+  // Store test artifacts
+  outputDir: 'test-results',
+
   use: {
+
     // Read URL from .env
     baseURL: process.env.BASE_URL,
 
-    // Use headless browsers in CI; retain headed mode for local runs.
+    // Headless in CI, headed locally
     headless: !!process.env.CI,
 
-    // Keep local browser maximization while using a stable CI viewport.
-    viewport: process.env.CI ? { width: 1280, height: 720 } : null,
+    // Browser viewport
+    viewport: process.env.CI
+      ? { width: 1280, height: 720 }
+      : null,
 
-    // Keep local launch behavior without slowing down CI workers.
+    // Browser launch options
     launchOptions: {
       args: process.env.CI ? [] : ['--start-maximized'],
       slowMo: process.env.CI ? 0 : 300
@@ -55,7 +63,7 @@ export default defineConfig({
     navigationTimeout: 30000
   },
 
-  // Run the practice suite in Google Chrome and Microsoft Edge.
+  // Browser projects
   projects: [
     {
       name: 'Chrome',
@@ -63,16 +71,16 @@ export default defineConfig({
         browserName: 'chromium',
         channel: 'chrome'
       }
-    },
-    {
-      name: 'Edge',
-      use: {
-        browserName: 'chromium',
-        channel: 'msedge'
-      }
     }
+
+    // Edge configuration
+    // {
+    //     name: 'Edge',
+    //     use: {
+    //         browserName: 'chromium',
+    //         channel: 'msedge'
+    //     }
+    // }
   ],
 
-  // Store test artifacts
-  outputDir: 'test-results'
 });

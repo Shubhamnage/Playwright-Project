@@ -12,8 +12,12 @@
   "license": "ISC",
   "type": "commonjs",
   "devDependencies": {
-    "@playwright/test": "^1.61.1",
+    "@playwright/test": "^1.65.1",
     "@types/node": "^26.6.5",
+    "@types/winston": "^2.4.4",
     "dotenv": "^17.4.2"
+  },
+  "dependencies": {
+    "winston": "^3.19.0"
   }
 }
