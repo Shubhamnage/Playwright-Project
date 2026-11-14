@@ -72,15 +72,6 @@ export default defineConfig({
         channel: 'chrome'
       }
     }
-
-    // Edge configuration
-    // {
-    //     name: 'Edge',
-    //     use: {
-    //         browserName: 'chromium',
-    //         channel: 'msedge'
-    //     }
-    // }
   ],
 
 });

@@ -1,39 +1,39 @@
-import { test, expect } from '@playwright/test';
+import { test, expect } from '../fixtures/baseTest';
 
 test('Perform all mouse actions', async ({ page }) => {
 
     // ==================================================
     // 1. Left Click
     // ==================================================
+
     await page.goto('https://demoqa.com/buttons');
 
-    await page.locator('text=Click Me').click();
+
+    await page.getByText('Click Me', { exact: true }).click();
 
     // ==================================================
     // 2. Double Click
     // ==================================================
-    await page.getByText('Double Click').dblclick();
+    await page.locator("//button[text()='Double Click Me']").dblclick();
 
-    await expect(page.locator('#doubleClickMessage')).toContainText('You have done a double click');
+    await expect(page.locator("//div//p[text()='You have done a double click']")).toContainText('You have done a double click');
 
     // ==================================================
     // 3. Right Click
     // ==================================================
-    await page.locator('#rightClickBtn').click({
-        button: 'right'
-    });
+    await page.locator("//button[text()='Right Click Me']").click({ button: 'right' });
 
-    await expect(page.locator('#rightClickMessage')).toContainText('You have done a right click');
+    await expect(page.locator("//div//p[text()='You have done a right click']")).toContainText('You have done a right click');
 
     // ==================================================
     // 4. Click with Delay
     // ==================================================
-    await page.locator('text=Click Me').click({delay: 500 });
+    await page.locator("//button[text()='Click Me']").click({ delay: 500 });
 
     // ==================================================
     // 5. Triple Click
     // ==================================================
-    await page.locator('text=Click Me').click({clickCount: 3});
+    await page.locator("//button[text()='Click Me']").click({ clickCount: 3 });
 
     // ==================================================
     // 6. Hover
@@ -49,12 +49,14 @@ test('Perform all mouse actions', async ({ page }) => {
     // ==================================================
     await page.goto('https://demoqa.com/droppable');
 
-    const source = page.locator('#draggable');
-    const target = page.locator('#droppable');
+    // const source = page.locator("//div[@id='draggable']");
+    // const target = page.locator("//p[text()='Drop Here']/parent::div");
+    await page.waitForTimeout(1000);
+    const dropvalue = page.locator("//p[text()='Dropped!']");
 
-    await source.dragTo(target);
+    await page.locator("//div[@id='draggable']").dragTo(page.locator("//p[text()='Drop Here']/parent::div"));
 
-    await expect(target).toContainText('Dropped!');
+    await expect(dropvalue).toContainText('Dropped!');
 
     // ==================================================
     // 8. Mouse Move

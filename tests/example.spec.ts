@@ -9,7 +9,7 @@ test('has title', async ({ page }) => {
   const Iphone = await page.locator("//a[@id='_productcard_acc_sku54217v4']");
   await Iphone.innerText();
   console.log(Iphone);
-  await expect(page.locator("//a[@id='_productcard_acc_sku54217v4']")).toHaveText('')
+  await expect(page.locator("//a[@id='_productcard_acc_sku54217v4']")).toHaveText('iPhone 17 Pro Max')
 
 
 

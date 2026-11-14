@@ -522,3 +522,550 @@ Call log:
 2026-11-14 12:31:09 [INFO] UI TEST PASSED: TC003:-Validating few scenarios 
 2026-11-14 12:31:09 [INFO] EXECUTION TIME: 11785 ms
 2026-11-14 12:31:09 [INFO] ==========================================
+2026-11-14 12:54:25 [INFO] ==========================================
+2026-11-14 12:54:25 [INFO] UI TEST STARTED: has title
+2026-11-14 12:54:25 [INFO] BROWSER: Chrome
+2026-11-14 12:54:25 [INFO] WORKER: 0
+2026-11-14 12:54:25 [INFO] RETRY: 0
+2026-11-14 12:54:25 [INFO] ACTION STARTED: goto | [object Object]
+2026-11-14 12:54:26 [INFO] UI NAVIGATION: https://www.att.com/
+2026-11-14 12:54:27 [INFO] UI NAVIGATION: https://www.att.com/
+2026-11-14 12:54:28 [ERROR] UI JAVASCRIPT ERROR: Loading chunk 500 failed.
+(error: https://www.att.com/hHnp3-/5/q/PymuE84ATA/Yca72bh9YS3cm2LO/LGsGQUshZAg/XG/500.bc3a704070a4861cdd83.js)
+2026-11-14 12:54:28 [INFO] ACTION PASSED: goto | [object Object]
+2026-11-14 12:54:28 [INFO] ACTION STARTED: click | locator('//li//button[@data-menu=\'Shop\']')
+2026-11-14 12:54:29 [INFO] ACTION PASSED: click | locator('//li//button[@data-menu=\'Shop\']')
+2026-11-14 12:54:29 [INFO] ACTION STARTED: click | locator('//li//a[@data-category=\'Devices & accessories\']')
+2026-11-14 12:54:30 [INFO] ACTION PASSED: click | locator('//li//a[@data-category=\'Devices & accessories\']')
+2026-11-14 12:54:30 [INFO] ACTION STARTED: click | locator('xpath=(//li//a[@id=\'Phones-link\'])[1]')
+2026-11-14 12:54:30 [ERROR] UI JAVASCRIPT ERROR: Unexpected end of JSON input
+2026-11-14 12:54:32 [INFO] UI NAVIGATION: https://www.att.com/buy/phones/
+2026-11-14 12:54:33 [INFO] ACTION PASSED: click | locator('xpath=(//li//a[@id=\'Phones-link\'])[1]')
+2026-11-14 12:54:33 [INFO] UI NAVIGATION: https://www.att.com/buy/phones/
+2026-11-14 12:54:34 [ERROR] UI JAVASCRIPT ERROR: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+2026-11-14 12:54:34 [ERROR] UI JAVASCRIPT ERROR: Minified React error #425; visit https://reactjs.org/docs/error-decoder.html?invariant=425 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+2026-11-14 12:54:34 [ERROR] UI JAVASCRIPT ERROR: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+2026-11-14 12:54:34 [ERROR] UI JAVASCRIPT ERROR: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+2026-11-14 12:54:34 [ERROR] UI JAVASCRIPT ERROR: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+2026-11-14 12:54:34 [ERROR] UI JAVASCRIPT ERROR: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+2026-11-14 12:54:34 [ERROR] UI JAVASCRIPT ERROR: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+2026-11-14 12:54:34 [ERROR] UI JAVASCRIPT ERROR: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+2026-11-14 12:54:34 [ERROR] UI JAVASCRIPT ERROR: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+2026-11-14 12:54:34 [ERROR] UI JAVASCRIPT ERROR: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+2026-11-14 12:54:34 [ERROR] UI JAVASCRIPT ERROR: Minified React error #423; visit https://reactjs.org/docs/error-decoder.html?invariant=423 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+2026-11-14 12:54:35 [ERROR] UI JAVASCRIPT ERROR: Loading chunk 500 failed.
+(error: https://www.att.com/hHnp3-/5/q/PymuE84ATA/Yca72bh9YS3cm2LO/LGsGQUshZAg/XG/500.bc3a704070a4861cdd83.js)
+2026-11-14 12:54:36 [ERROR] UI JAVASCRIPT ERROR: Unexpected string
+2026-11-14 12:54:39 [ERROR] UI TEST FAILED: has title
+2026-11-14 12:54:39 [INFO] EXECUTION TIME: 13749 ms
+2026-11-14 12:54:39 [ERROR] ERROR DETAILS: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoHaveText[2m([22m[32mexpected[39m[2m)[22m failed
+
+Locator:  locator('//a[@id=\'_productcard_acc_sku54217v4\']')
+Expected: [32m""[39m
+Received: [31m"iPhone 17 Pro Max"[39m
+Timeout:  5000ms
+
+Call log:
+[2m  - Expect "toHaveText" locator('//a[@id=\'_productcard_acc_sku54217v4\']') with timeout 5000ms[22m
+[2m  - waiting for locator('//a[@id=\'_productcard_acc_sku54217v4\']')[22m
+[2m    8 × locator resolved to <a id="_productcard_acc_sku54217v4" href="/buy/phones/apple-iphone-17-pro-max.html" class="link-text2 block color-ui-black z1 cta-overlay productCardOverlay">…</a>[22m
+[2m      - unexpected value "iPhone 17 Pro Max"[22m
+[2m    5 × locator resolved to <a id="_productcard_acc_sku54217v4" data-di-id="di-id-333bf7a9-7b72fe56" href="/buy/phones/apple-iphone-17-pro-max.html" class="link-text2 block color-ui-black z1 cta-overlay productCardOverlay">…</a>[22m
+[2m      - unexpected value "iPhone 17 Pro Max"[22m
+
+    at D:\project\P1_Project1\tests\example.spec.ts:12:72
+2026-11-14 12:54:39 [INFO] ==========================================
+2026-11-14 12:55:20 [INFO] ==========================================
+2026-11-14 12:55:20 [INFO] UI TEST STARTED: has title
+2026-11-14 12:55:20 [INFO] BROWSER: Chrome
+2026-11-14 12:55:20 [INFO] WORKER: 0
+2026-11-14 12:55:20 [INFO] RETRY: 0
+2026-11-14 12:55:20 [INFO] ACTION STARTED: goto | [object Object]
+2026-11-14 12:55:22 [INFO] UI NAVIGATION: https://www.att.com/
+2026-11-14 12:55:22 [INFO] UI NAVIGATION: https://www.att.com/
+2026-11-14 12:55:23 [ERROR] UI JAVASCRIPT ERROR: Loading chunk 500 failed.
+(error: https://www.att.com/hHnp3-/5/q/PymuE84ATA/Yca72bh9YS3cm2LO/LGsGQUshZAg/XG/500.bc3a704070a4861cdd83.js)
+2026-11-14 12:55:24 [INFO] ACTION PASSED: goto | [object Object]
+2026-11-14 12:55:24 [INFO] ACTION STARTED: click | locator('//li//button[@data-menu=\'Shop\']')
+2026-11-14 12:55:24 [INFO] ACTION PASSED: click | locator('//li//button[@data-menu=\'Shop\']')
+2026-11-14 12:55:24 [INFO] ACTION STARTED: click | locator('//li//a[@data-category=\'Devices & accessories\']')
+2026-11-14 12:55:26 [INFO] ACTION PASSED: click | locator('//li//a[@data-category=\'Devices & accessories\']')
+2026-11-14 12:55:26 [INFO] ACTION STARTED: click | locator('xpath=(//li//a[@id=\'Phones-link\'])[1]')
+2026-11-14 12:55:26 [INFO] UI NAVIGATION: https://www.att.com/buy/phones/
+2026-11-14 12:55:26 [INFO] ACTION PASSED: click | locator('xpath=(//li//a[@id=\'Phones-link\'])[1]')
+2026-11-14 12:55:26 [INFO] UI TEST PASSED: has title
+2026-11-14 12:55:26 [INFO] EXECUTION TIME: 6515 ms
+2026-11-14 12:55:26 [INFO] ==========================================
+2026-11-14 13:03:51 [INFO] ==========================================
+2026-11-14 13:03:51 [INFO] UI TEST STARTED: Perform all mouse actions
+2026-11-14 13:03:51 [INFO] BROWSER: Chrome
+2026-11-14 13:03:51 [INFO] WORKER: 0
+2026-11-14 13:03:51 [INFO] RETRY: 0
+2026-11-14 13:03:51 [INFO] ACTION STARTED: goto | [object Object]
+2026-11-14 13:03:52 [INFO] UI NAVIGATION: https://demoqa.com/buttons
+2026-11-14 13:03:54 [INFO] UI NAVIGATION: https://demoqa.com/buttons
+2026-11-14 13:03:54 [INFO] ACTION PASSED: goto | [object Object]
+2026-11-14 13:03:54 [INFO] ACTION STARTED: click | getByText('Click Me', { exact: true })
+2026-11-14 13:03:54 [INFO] ACTION PASSED: click | getByText('Click Me', { exact: true })
+2026-11-14 13:03:54 [INFO] ACTION STARTED: dblclick | getByText('Double Click', { exact: true })
+2026-11-14 13:04:21 [WARN] UI TEST STATUS: timedOut
+2026-11-14 13:04:21 [INFO] EXECUTION TIME: 30004 ms
+2026-11-14 13:04:21 [ERROR] ERROR DETAILS: [31mTest timeout of 30000ms exceeded.[39m
+2026-11-14 13:04:21 [INFO] ==========================================
+2026-11-14 13:04:22 [ERROR] ACTION FAILED: dblclick | getByText('Double Click', { exact: true })
+2026-11-14 13:04:22 [ERROR] ACTION EXCEPTION: locator.originalMethod: Test timeout of 30000ms exceeded.
+Call log:
+[2m  - waiting for getByText('Double Click', { exact: true })[22m
+
+2026-11-14 13:07:50 [INFO] ==========================================
+2026-11-14 13:07:50 [INFO] UI TEST STARTED: Perform all mouse actions
+2026-11-14 13:07:50 [INFO] BROWSER: Chrome
+2026-11-14 13:07:50 [INFO] WORKER: 0
+2026-11-14 13:07:50 [INFO] RETRY: 0
+2026-11-14 13:07:50 [INFO] ACTION STARTED: goto | [object Object]
+2026-11-14 13:07:50 [INFO] UI NAVIGATION: https://demoqa.com/buttons
+2026-11-14 13:07:52 [INFO] UI NAVIGATION: https://demoqa.com/buttons
+2026-11-14 13:07:52 [INFO] ACTION PASSED: goto | [object Object]
+2026-11-14 13:07:55 [INFO] ACTION STARTED: click | getByText('Click Me', { exact: true })
+2026-11-14 13:07:57 [INFO] ACTION PASSED: click | getByText('Click Me', { exact: true })
+2026-11-14 13:07:57 [INFO] ACTION STARTED: dblclick | getByText('Double Click', { exact: true })
+2026-11-14 13:08:28 [ERROR] ACTION FAILED: dblclick | getByText('Double Click', { exact: true })
+2026-11-14 13:08:28 [ERROR] ACTION EXCEPTION: locator.originalMethod: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for getByText('Double Click', { exact: true })[22m
+
+2026-11-14 13:08:28 [ERROR] UI TEST FAILED: Perform all mouse actions
+2026-11-14 13:08:28 [INFO] EXECUTION TIME: 40702 ms
+2026-11-14 13:08:28 [ERROR] ERROR DETAILS: TimeoutError: locator.originalMethod: Timeout 30000ms exceeded.
+Call log:
+[2m  - waiting for getByText('Double Click', { exact: true })[22m
+
+    at _Locator.dblclick (D:\project\P1_Project1\utils\actionLogger.ts:95:34)
+    at D:\project\P1_Project1\tests\TC_001_test.spec.ts:17:59
+2026-11-14 13:08:28 [INFO] ==========================================
+2026-11-14 13:10:20 [INFO] ==========================================
+2026-11-14 13:10:20 [INFO] UI TEST STARTED: Perform all mouse actions
+2026-11-14 13:10:20 [INFO] BROWSER: Chrome
+2026-11-14 13:10:20 [INFO] WORKER: 0
+2026-11-14 13:10:20 [INFO] RETRY: 0
+2026-11-14 13:10:20 [INFO] ACTION STARTED: goto | [object Object]
+2026-11-14 13:10:21 [INFO] UI NAVIGATION: https://demoqa.com/buttons
+2026-11-14 13:10:22 [INFO] UI NAVIGATION: https://demoqa.com/buttons
+2026-11-14 13:10:22 [INFO] ACTION PASSED: goto | [object Object]
+2026-11-14 13:10:25 [INFO] ACTION STARTED: click | getByText('Click Me', { exact: true })
+2026-11-14 13:10:27 [INFO] ACTION PASSED: click | getByText('Click Me', { exact: true })
+2026-11-14 13:10:27 [INFO] ACTION STARTED: dblclick | locator('//button[text()=\'Double Click Me\']')
+2026-11-14 13:10:29 [INFO] ACTION PASSED: dblclick | locator('//button[text()=\'Double Click Me\']')
+2026-11-14 13:10:35 [ERROR] UI TEST FAILED: Perform all mouse actions
+2026-11-14 13:10:35 [INFO] EXECUTION TIME: 17881 ms
+2026-11-14 13:10:35 [ERROR] ERROR DETAILS: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoContainText[2m([22m[32mexpected[39m[2m)[22m failed
+
+Locator: locator('//div//p[text()=\'You have done a right click\']')
+Expected substring: [32m"You have done a double click"[39m
+Timeout: 5000ms
+Error: element(s) not found
+
+Call log:
+[2m  - Expect "toContainText" locator('//div//p[text()=\'You have done a right click\']') with timeout 5000ms[22m
+[2m  - waiting for locator('//div//p[text()=\'You have done a right click\']')[22m
+
+    at D:\project\P1_Project1\tests\TC_001_test.spec.ts:19:82
+2026-11-14 13:10:35 [INFO] ==========================================
+2026-11-14 13:11:44 [INFO] ==========================================
+2026-11-14 13:11:44 [INFO] UI TEST STARTED: Perform all mouse actions
+2026-11-14 13:11:44 [INFO] BROWSER: Chrome
+2026-11-14 13:11:44 [INFO] WORKER: 0
+2026-11-14 13:11:44 [INFO] RETRY: 0
+2026-11-14 13:11:44 [INFO] ACTION STARTED: goto | [object Object]
+2026-11-14 13:11:45 [INFO] UI NAVIGATION: https://demoqa.com/buttons
+2026-11-14 13:11:47 [INFO] UI NAVIGATION: https://demoqa.com/buttons
+2026-11-14 13:11:47 [INFO] ACTION PASSED: goto | [object Object]
+2026-11-14 13:11:52 [INFO] ACTION STARTED: click | getByText('Click Me', { exact: true })
+2026-11-14 13:11:54 [INFO] ACTION PASSED: click | getByText('Click Me', { exact: true })
+2026-11-14 13:11:54 [INFO] ACTION STARTED: dblclick | locator('//button[text()=\'Double Click Me\']')
+2026-11-14 13:11:55 [INFO] ACTION PASSED: dblclick | locator('//button[text()=\'Double Click Me\']')
+2026-11-14 13:11:56 [INFO] ACTION STARTED: click | locator('//button[text()=\'Right Click Me\']')
+2026-11-14 13:11:57 [INFO] ACTION PASSED: click | locator('//button[text()=\'Right Click Me\']')
+2026-11-14 13:11:58 [INFO] ACTION STARTED: click | locator('//button[text()=\'Click Me\']')
+2026-11-14 13:12:01 [INFO] ACTION PASSED: click | locator('//button[text()=\'Click Me\']')
+2026-11-14 13:12:01 [INFO] ACTION STARTED: click | locator('//button[text()=\'Click Me\']')
+2026-11-14 13:12:03 [INFO] ACTION PASSED: click | locator('//button[text()=\'Click Me\']')
+2026-11-14 13:12:03 [INFO] ACTION STARTED: goto | [object Object]
+2026-11-14 13:12:05 [INFO] UI NAVIGATION: https://the-internet.herokuapp.com/hovers
+2026-11-14 13:12:07 [INFO] ACTION PASSED: goto | [object Object]
+2026-11-14 13:12:07 [INFO] ACTION STARTED: hover | locator('.figure').first()
+2026-11-14 13:12:08 [INFO] ACTION PASSED: hover | locator('.figure').first()
+2026-11-14 13:12:10 [INFO] ACTION STARTED: goto | [object Object]
+2026-11-14 13:12:11 [INFO] UI NAVIGATION: https://demoqa.com/droppable
+2026-11-14 13:12:12 [INFO] UI NAVIGATION: https://demoqa.com/droppable
+2026-11-14 13:12:12 [INFO] ACTION PASSED: goto | [object Object]
+2026-11-14 13:12:12 [INFO] ACTION STARTED: dragTo | locator('#draggable')
+2026-11-14 13:12:13 [ERROR] ACTION FAILED: dragTo | locator('#draggable')
+2026-11-14 13:12:13 [ERROR] ACTION EXCEPTION: locator.originalMethod: Error: strict mode violation: locator('#droppable') resolved to 2 elements:
+    1) <div id="droppable" class="drop-box ui-droppable">…</div> aka getByRole('tabpanel', { name: 'Simple' }).locator('#droppable')
+    2) <div id="droppable" class="drop-box ui-droppable">…</div> aka getByLabel('Revert Draggable').locator('#droppable')
+
+Call log:
+[2m  - waiting for locator('#draggable')[22m
+[2m    - locator resolved to <div id="draggable" class="drag-box mt-4">Drag Me</div>[22m
+[2m  - attempting move and down action[22m
+[2m    - waiting for element to be visible and stable[22m
+[2m    - element is visible and stable[22m
+[2m    - scrolling into view if needed[22m
+[2m    - done scrolling[22m
+[2m    - performing move and down action[22m
+[2m    - move and down action done[22m
+[2m    - waiting for scheduled navigations to finish[22m
+[2m    - navigations have finished[22m
+[2m  - waiting for locator('#droppable')[22m
+
+2026-11-14 13:12:13 [ERROR] UI TEST FAILED: Perform all mouse actions
+2026-11-14 13:12:13 [INFO] EXECUTION TIME: 31757 ms
+2026-11-14 13:12:13 [ERROR] ERROR DETAILS: Error: locator.originalMethod: Error: strict mode violation: locator('#droppable') resolved to 2 elements:
+    1) <div id="droppable" class="drop-box ui-droppable">…</div> aka getByRole('tabpanel', { name: 'Simple' }).locator('#droppable')
+    2) <div id="droppable" class="drop-box ui-droppable">…</div> aka getByLabel('Revert Draggable').locator('#droppable')
+
+Call log:
+[2m  - waiting for locator('#draggable')[22m
+[2m    - locator resolved to <div id="draggable" class="drag-box mt-4">Drag Me</div>[22m
+[2m  - attempting move and down action[22m
+[2m    - waiting for element to be visible and stable[22m
+[2m    - element is visible and stable[22m
+[2m    - scrolling into view if needed[22m
+[2m    - done scrolling[22m
+[2m    - performing move and down action[22m
+[2m    - move and down action done[22m
+[2m    - waiting for scheduled navigations to finish[22m
+[2m    - navigations have finished[22m
+[2m  - waiting for locator('#droppable')[22m
+
+    at _Locator.dragTo (D:\project\P1_Project1\utils\actionLogger.ts:95:34)
+    at D:\project\P1_Project1\tests\TC_001_test.spec.ts:55:18
+2026-11-14 13:12:13 [INFO] ==========================================
+2026-11-14 13:16:15 [INFO] ==========================================
+2026-11-14 13:16:15 [INFO] UI TEST STARTED: Perform all mouse actions
+2026-11-14 13:16:15 [INFO] BROWSER: Chrome
+2026-11-14 13:16:15 [INFO] WORKER: 0
+2026-11-14 13:16:15 [INFO] RETRY: 0
+2026-11-14 13:16:15 [INFO] ACTION STARTED: goto | [object Object]
+2026-11-14 13:16:16 [INFO] UI NAVIGATION: https://demoqa.com/buttons
+2026-11-14 13:16:22 [INFO] UI NAVIGATION: https://demoqa.com/buttons
+2026-11-14 13:16:22 [INFO] ACTION PASSED: goto | [object Object]
+2026-11-14 13:16:25 [INFO] ACTION STARTED: click | getByText('Click Me', { exact: true })
+2026-11-14 13:16:25 [INFO] ACTION PASSED: click | getByText('Click Me', { exact: true })
+2026-11-14 13:16:25 [INFO] ACTION STARTED: dblclick | locator('//button[text()=\'Double Click Me\']')
+2026-11-14 13:16:25 [INFO] ACTION PASSED: dblclick | locator('//button[text()=\'Double Click Me\']')
+2026-11-14 13:16:26 [INFO] ACTION STARTED: click | locator('//button[text()=\'Right Click Me\']')
+2026-11-14 13:16:26 [INFO] ACTION PASSED: click | locator('//button[text()=\'Right Click Me\']')
+2026-11-14 13:16:26 [INFO] ACTION STARTED: click | locator('//button[text()=\'Click Me\']')
+2026-11-14 13:16:27 [INFO] ACTION PASSED: click | locator('//button[text()=\'Click Me\']')
+2026-11-14 13:16:27 [INFO] ACTION STARTED: click | locator('//button[text()=\'Click Me\']')
+2026-11-14 13:16:27 [INFO] ACTION PASSED: click | locator('//button[text()=\'Click Me\']')
+2026-11-14 13:16:27 [INFO] ACTION STARTED: goto | [object Object]
+2026-11-14 13:16:28 [INFO] UI NAVIGATION: https://the-internet.herokuapp.com/hovers
+2026-11-14 13:16:30 [INFO] ACTION PASSED: goto | [object Object]
+2026-11-14 13:16:30 [INFO] ACTION STARTED: hover | locator('.figure').first()
+2026-11-14 13:16:30 [INFO] ACTION PASSED: hover | locator('.figure').first()
+2026-11-14 13:16:30 [INFO] ACTION STARTED: goto | [object Object]
+2026-11-14 13:16:30 [INFO] UI NAVIGATION: https://demoqa.com/droppable
+2026-11-14 13:16:31 [INFO] UI NAVIGATION: https://demoqa.com/droppable
+2026-11-14 13:16:31 [INFO] ACTION PASSED: goto | [object Object]
+2026-11-14 13:16:31 [INFO] ACTION STARTED: dragTo | locator('//div[@class=\'simple-drop-container\']//div').nth(1)
+2026-11-14 13:17:01 [WARN] UI TEST STATUS: interrupted
+2026-11-14 13:17:01 [INFO] EXECUTION TIME: 52253 ms
+2026-11-14 13:17:01 [INFO] ==========================================
+2026-11-14 13:17:18 [INFO] ==========================================
+2026-11-14 13:17:18 [INFO] UI TEST STARTED: Perform all mouse actions
+2026-11-14 13:17:18 [INFO] BROWSER: Chrome
+2026-11-14 13:17:18 [INFO] WORKER: 0
+2026-11-14 13:17:18 [INFO] RETRY: 0
+2026-11-14 13:17:18 [INFO] ACTION STARTED: goto | [object Object]
+2026-11-14 13:17:19 [INFO] UI NAVIGATION: https://demoqa.com/buttons
+2026-11-14 13:17:22 [INFO] UI NAVIGATION: https://demoqa.com/buttons
+2026-11-14 13:17:22 [INFO] ACTION PASSED: goto | [object Object]
+2026-11-14 13:17:25 [INFO] ACTION STARTED: click | getByText('Click Me', { exact: true })
+2026-11-14 13:17:25 [INFO] ACTION PASSED: click | getByText('Click Me', { exact: true })
+2026-11-14 13:17:25 [INFO] ACTION STARTED: dblclick | locator('//button[text()=\'Double Click Me\']')
+2026-11-14 13:17:26 [INFO] ACTION PASSED: dblclick | locator('//button[text()=\'Double Click Me\']')
+2026-11-14 13:17:26 [INFO] ACTION STARTED: click | locator('//button[text()=\'Right Click Me\']')
+2026-11-14 13:17:26 [INFO] ACTION PASSED: click | locator('//button[text()=\'Right Click Me\']')
+2026-11-14 13:17:26 [INFO] ACTION STARTED: click | locator('//button[text()=\'Click Me\']')
+2026-11-14 13:17:27 [INFO] ACTION PASSED: click | locator('//button[text()=\'Click Me\']')
+2026-11-14 13:17:27 [INFO] ACTION STARTED: click | locator('//button[text()=\'Click Me\']')
+2026-11-14 13:17:27 [INFO] ACTION PASSED: click | locator('//button[text()=\'Click Me\']')
+2026-11-14 13:17:27 [INFO] ACTION STARTED: goto | [object Object]
+2026-11-14 13:17:28 [INFO] UI NAVIGATION: https://the-internet.herokuapp.com/hovers
+2026-11-14 13:17:30 [INFO] ACTION PASSED: goto | [object Object]
+2026-11-14 13:17:30 [INFO] ACTION STARTED: hover | locator('.figure').first()
+2026-11-14 13:17:31 [INFO] ACTION PASSED: hover | locator('.figure').first()
+2026-11-14 13:17:31 [INFO] ACTION STARTED: goto | [object Object]
+2026-11-14 13:17:31 [INFO] UI NAVIGATION: https://demoqa.com/droppable
+2026-11-14 13:17:31 [INFO] UI NAVIGATION: https://demoqa.com/droppable
+2026-11-14 13:17:31 [INFO] ACTION PASSED: goto | [object Object]
+2026-11-14 13:17:31 [INFO] ACTION STARTED: dragTo | locator('//div[@class=\'simple-drop-container\']//div').first()
+2026-11-14 13:17:32 [INFO] ACTION PASSED: dragTo | locator('//div[@class=\'simple-drop-container\']//div').first()
+2026-11-14 13:17:37 [ERROR] UI TEST FAILED: Perform all mouse actions
+2026-11-14 13:17:37 [INFO] EXECUTION TIME: 22970 ms
+2026-11-14 13:17:37 [ERROR] ERROR DETAILS: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoContainText[2m([22m[32mexpected[39m[2m)[22m failed
+
+Locator: locator('//div[@class=\'simple-drop-container\']//div').nth(1)
+Expected substring: [32m"Drop[7mped![27m"[39m
+Received string:    [31m"Drop[7m Here[27m"[39m
+Timeout: 5000ms
+
+Call log:
+[2m  - Expect "toContainText" locator('//div[@class=\'simple-drop-container\']//div').nth(1) with timeout 5000ms[22m
+[2m  - waiting for locator('//div[@class=\'simple-drop-container\']//div').nth(1)[22m
+[2m    5 × locator resolved to <div id="droppable" class="drop-box">…</div>[22m
+[2m      - unexpected value "Drop Here"[22m
+[2m    9 × locator resolved to <div id="droppable" class="drop-box ui-droppable">…</div>[22m
+[2m      - unexpected value "Drop Here"[22m
+
+    at D:\project\P1_Project1\tests\TC_001_test.spec.ts:57:26
+2026-11-14 13:17:37 [INFO] ==========================================
+2026-11-14 13:24:12 [INFO] ==========================================
+2026-11-14 13:24:12 [INFO] UI TEST STARTED: Perform all mouse actions
+2026-11-14 13:24:12 [INFO] BROWSER: Chrome
+2026-11-14 13:24:12 [INFO] WORKER: 0
+2026-11-14 13:24:12 [INFO] RETRY: 0
+2026-11-14 13:24:12 [INFO] ACTION STARTED: goto | [object Object]
+2026-11-14 13:24:13 [INFO] UI NAVIGATION: https://demoqa.com/buttons
+2026-11-14 13:24:16 [INFO] UI NAVIGATION: https://demoqa.com/buttons
+2026-11-14 13:24:16 [INFO] ACTION PASSED: goto | [object Object]
+2026-11-14 13:24:16 [INFO] ACTION STARTED: click | getByText('Click Me', { exact: true })
+2026-11-14 13:24:17 [INFO] ACTION PASSED: click | getByText('Click Me', { exact: true })
+2026-11-14 13:24:17 [INFO] ACTION STARTED: dblclick | locator('//button[text()=\'Double Click Me\']')
+2026-11-14 13:24:17 [INFO] ACTION PASSED: dblclick | locator('//button[text()=\'Double Click Me\']')
+2026-11-14 13:24:17 [INFO] ACTION STARTED: click | locator('//button[text()=\'Right Click Me\']')
+2026-11-14 13:24:18 [INFO] ACTION PASSED: click | locator('//button[text()=\'Right Click Me\']')
+2026-11-14 13:24:18 [INFO] ACTION STARTED: click | locator('//button[text()=\'Click Me\']')
+2026-11-14 13:24:18 [INFO] ACTION PASSED: click | locator('//button[text()=\'Click Me\']')
+2026-11-14 13:24:18 [INFO] ACTION STARTED: click | locator('//button[text()=\'Click Me\']')
+2026-11-14 13:24:19 [INFO] ACTION PASSED: click | locator('//button[text()=\'Click Me\']')
+2026-11-14 13:24:19 [INFO] ACTION STARTED: goto | [object Object]
+2026-11-14 13:24:19 [INFO] UI NAVIGATION: https://the-internet.herokuapp.com/hovers
+2026-11-14 13:24:21 [INFO] ACTION PASSED: goto | [object Object]
+2026-11-14 13:24:21 [INFO] ACTION STARTED: hover | locator('.figure').first()
+2026-11-14 13:24:22 [INFO] ACTION PASSED: hover | locator('.figure').first()
+2026-11-14 13:24:22 [INFO] ACTION STARTED: goto | [object Object]
+2026-11-14 13:24:22 [INFO] UI NAVIGATION: https://demoqa.com/droppable
+2026-11-14 13:24:22 [INFO] UI NAVIGATION: https://demoqa.com/droppable
+2026-11-14 13:24:23 [INFO] ACTION PASSED: goto | [object Object]
+2026-11-14 13:24:28 [INFO] ACTION STARTED: dragTo | locator('//div[@id=\'draggable\']')
+2026-11-14 13:24:35 [INFO] ACTION PASSED: dragTo | locator('//div[@id=\'draggable\']')
+2026-11-14 13:24:41 [ERROR] UI TEST FAILED: Perform all mouse actions
+2026-11-14 13:24:41 [INFO] EXECUTION TIME: 39030 ms
+2026-11-14 13:24:41 [ERROR] ERROR DETAILS: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoContainText[2m([22m[32mexpected[39m[2m)[22m failed
+
+Locator: locator('//p[text()=\'Drop Here\']/parent::div')
+Expected substring: [32m"Dropped!"[39m
+Timeout: 5000ms
+Error: element(s) not found
+
+Call log:
+[2m  - Expect "toContainText" locator('//p[text()=\'Drop Here\']/parent::div') with timeout 5000ms[22m
+[2m  - waiting for locator('//p[text()=\'Drop Here\']/parent::div')[22m
+
+    at D:\project\P1_Project1\tests\TC_001_test.spec.ts:58:26
+2026-11-14 13:24:41 [INFO] ==========================================
+2026-11-14 13:26:15 [INFO] ==========================================
+2026-11-14 13:26:15 [INFO] UI TEST STARTED: Perform all mouse actions
+2026-11-14 13:26:15 [INFO] BROWSER: Chrome
+2026-11-14 13:26:15 [INFO] WORKER: 0
+2026-11-14 13:26:15 [INFO] RETRY: 0
+2026-11-14 13:26:15 [INFO] ACTION STARTED: goto | [object Object]
+2026-11-14 13:26:16 [INFO] UI NAVIGATION: https://demoqa.com/buttons
+2026-11-14 13:26:18 [INFO] UI NAVIGATION: https://demoqa.com/buttons
+2026-11-14 13:26:18 [INFO] ACTION PASSED: goto | [object Object]
+2026-11-14 13:26:18 [INFO] ACTION STARTED: click | getByText('Click Me', { exact: true })
+2026-11-14 13:26:19 [INFO] ACTION PASSED: click | getByText('Click Me', { exact: true })
+2026-11-14 13:26:19 [INFO] ACTION STARTED: dblclick | locator('//button[text()=\'Double Click Me\']')
+2026-11-14 13:26:19 [INFO] ACTION PASSED: dblclick | locator('//button[text()=\'Double Click Me\']')
+2026-11-14 13:26:19 [INFO] ACTION STARTED: click | locator('//button[text()=\'Right Click Me\']')
+2026-11-14 13:26:19 [INFO] ACTION PASSED: click | locator('//button[text()=\'Right Click Me\']')
+2026-11-14 13:26:19 [INFO] ACTION STARTED: click | locator('//button[text()=\'Click Me\']')
+2026-11-14 13:26:20 [INFO] ACTION PASSED: click | locator('//button[text()=\'Click Me\']')
+2026-11-14 13:26:20 [INFO] ACTION STARTED: click | locator('//button[text()=\'Click Me\']')
+2026-11-14 13:26:21 [INFO] ACTION PASSED: click | locator('//button[text()=\'Click Me\']')
+2026-11-14 13:26:21 [INFO] ACTION STARTED: goto | [object Object]
+2026-11-14 13:26:21 [INFO] UI NAVIGATION: https://the-internet.herokuapp.com/hovers
+2026-11-14 13:26:23 [INFO] ACTION PASSED: goto | [object Object]
+2026-11-14 13:26:23 [INFO] ACTION STARTED: hover | locator('.figure').first()
+2026-11-14 13:26:24 [INFO] ACTION PASSED: hover | locator('.figure').first()
+2026-11-14 13:26:24 [INFO] ACTION STARTED: goto | [object Object]
+2026-11-14 13:26:24 [INFO] UI NAVIGATION: https://demoqa.com/droppable
+2026-11-14 13:26:24 [INFO] UI NAVIGATION: https://demoqa.com/droppable
+2026-11-14 13:26:25 [INFO] ACTION PASSED: goto | [object Object]
+2026-11-14 13:26:29 [INFO] ACTION STARTED: dragTo | locator('//div[@id=\'draggable\']')
+2026-11-14 13:26:32 [INFO] ACTION PASSED: dragTo | locator('//div[@id=\'draggable\']')
+2026-11-14 13:26:48 [INFO] UI TEST PASSED: Perform all mouse actions
+2026-11-14 13:26:48 [INFO] EXECUTION TIME: 43082 ms
+2026-11-14 13:26:48 [INFO] ==========================================
+2026-11-14 13:27:15 [INFO] ==========================================
+2026-11-14 13:27:15 [INFO] UI TEST STARTED: Perform all mouse actions
+2026-11-14 13:27:15 [INFO] BROWSER: Chrome
+2026-11-14 13:27:15 [INFO] WORKER: 0
+2026-11-14 13:27:15 [INFO] RETRY: 0
+2026-11-14 13:27:15 [INFO] ACTION STARTED: goto | [object Object]
+2026-11-14 13:27:16 [INFO] UI NAVIGATION: https://demoqa.com/buttons
+2026-11-14 13:27:18 [INFO] UI NAVIGATION: https://demoqa.com/buttons
+2026-11-14 13:27:19 [INFO] ACTION PASSED: goto | [object Object]
+2026-11-14 13:27:19 [INFO] ACTION STARTED: click | getByText('Click Me', { exact: true })
+2026-11-14 13:27:19 [INFO] ACTION PASSED: click | getByText('Click Me', { exact: true })
+2026-11-14 13:27:19 [INFO] ACTION STARTED: dblclick | locator('//button[text()=\'Double Click Me\']')
+2026-11-14 13:27:19 [INFO] ACTION PASSED: dblclick | locator('//button[text()=\'Double Click Me\']')
+2026-11-14 13:27:19 [INFO] ACTION STARTED: click | locator('//button[text()=\'Right Click Me\']')
+2026-11-14 13:27:20 [INFO] ACTION PASSED: click | locator('//button[text()=\'Right Click Me\']')
+2026-11-14 13:27:20 [INFO] ACTION STARTED: click | locator('//button[text()=\'Click Me\']')
+2026-11-14 13:27:21 [INFO] ACTION PASSED: click | locator('//button[text()=\'Click Me\']')
+2026-11-14 13:27:21 [INFO] ACTION STARTED: click | locator('//button[text()=\'Click Me\']')
+2026-11-14 13:27:21 [INFO] ACTION PASSED: click | locator('//button[text()=\'Click Me\']')
+2026-11-14 13:27:21 [INFO] ACTION STARTED: goto | [object Object]
+2026-11-14 13:27:22 [INFO] UI NAVIGATION: https://the-internet.herokuapp.com/hovers
+2026-11-14 13:27:24 [INFO] ACTION PASSED: goto | [object Object]
+2026-11-14 13:27:24 [INFO] ACTION STARTED: hover | locator('.figure').first()
+2026-11-14 13:27:24 [INFO] ACTION PASSED: hover | locator('.figure').first()
+2026-11-14 13:27:24 [INFO] ACTION STARTED: goto | [object Object]
+2026-11-14 13:27:24 [INFO] UI NAVIGATION: https://demoqa.com/droppable
+2026-11-14 13:27:25 [INFO] UI NAVIGATION: https://demoqa.com/droppable
+2026-11-14 13:27:25 [INFO] ACTION PASSED: goto | [object Object]
+2026-11-14 13:27:25 [INFO] ACTION STARTED: dragTo | locator('//div[@id=\'draggable\']')
+2026-11-14 13:27:25 [INFO] ACTION PASSED: dragTo | locator('//div[@id=\'draggable\']')
+2026-11-14 13:27:30 [ERROR] UI TEST FAILED: Perform all mouse actions
+2026-11-14 13:27:30 [INFO] EXECUTION TIME: 15317 ms
+2026-11-14 13:27:30 [ERROR] ERROR DETAILS: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoContainText[2m([22m[32mexpected[39m[2m)[22m failed
+
+Locator: locator('//p[text()=\'Dropped!\']')
+Expected substring: [32m"Dropped!"[39m
+Timeout: 5000ms
+Error: element(s) not found
+
+Call log:
+[2m  - Expect "toContainText" locator('//p[text()=\'Dropped!\']') with timeout 5000ms[22m
+[2m  - waiting for locator('//p[text()=\'Dropped!\']')[22m
+
+    at D:\project\P1_Project1\tests\TC_001_test.spec.ts:58:29
+2026-11-14 13:27:30 [INFO] ==========================================
+2026-11-14 13:27:49 [INFO] ==========================================
+2026-11-14 13:27:49 [INFO] UI TEST STARTED: Perform all mouse actions
+2026-11-14 13:27:49 [INFO] BROWSER: Chrome
+2026-11-14 13:27:49 [INFO] WORKER: 0
+2026-11-14 13:27:49 [INFO] RETRY: 0
+2026-11-14 13:27:49 [INFO] ACTION STARTED: goto | [object Object]
+2026-11-14 13:27:50 [INFO] UI NAVIGATION: https://demoqa.com/buttons
+2026-11-14 13:27:52 [INFO] UI NAVIGATION: https://demoqa.com/buttons
+2026-11-14 13:27:53 [INFO] ACTION PASSED: goto | [object Object]
+2026-11-14 13:27:53 [INFO] ACTION STARTED: click | getByText('Click Me', { exact: true })
+2026-11-14 13:27:53 [INFO] ACTION PASSED: click | getByText('Click Me', { exact: true })
+2026-11-14 13:27:53 [INFO] ACTION STARTED: dblclick | locator('//button[text()=\'Double Click Me\']')
+2026-11-14 13:27:53 [INFO] ACTION PASSED: dblclick | locator('//button[text()=\'Double Click Me\']')
+2026-11-14 13:27:54 [INFO] ACTION STARTED: click | locator('//button[text()=\'Right Click Me\']')
+2026-11-14 13:27:54 [INFO] ACTION PASSED: click | locator('//button[text()=\'Right Click Me\']')
+2026-11-14 13:27:54 [INFO] ACTION STARTED: click | locator('//button[text()=\'Click Me\']')
+2026-11-14 13:27:55 [INFO] ACTION PASSED: click | locator('//button[text()=\'Click Me\']')
+2026-11-14 13:27:55 [INFO] ACTION STARTED: click | locator('//button[text()=\'Click Me\']')
+2026-11-14 13:27:55 [INFO] ACTION PASSED: click | locator('//button[text()=\'Click Me\']')
+2026-11-14 13:27:55 [INFO] ACTION STARTED: goto | [object Object]
+2026-11-14 13:27:56 [INFO] UI NAVIGATION: https://the-internet.herokuapp.com/hovers
+2026-11-14 13:27:58 [INFO] ACTION PASSED: goto | [object Object]
+2026-11-14 13:27:58 [INFO] ACTION STARTED: hover | locator('.figure').first()
+2026-11-14 13:27:58 [INFO] ACTION PASSED: hover | locator('.figure').first()
+2026-11-14 13:27:58 [INFO] ACTION STARTED: goto | [object Object]
+2026-11-14 13:27:58 [INFO] UI NAVIGATION: https://demoqa.com/droppable
+2026-11-14 13:27:59 [INFO] UI NAVIGATION: https://demoqa.com/droppable
+2026-11-14 13:27:59 [INFO] ACTION PASSED: goto | [object Object]
+2026-11-14 13:27:59 [INFO] ACTION STARTED: dragTo | locator('//div[@id=\'draggable\']')
+2026-11-14 13:27:59 [INFO] ACTION PASSED: dragTo | locator('//div[@id=\'draggable\']')
+2026-11-14 13:28:05 [ERROR] UI TEST FAILED: Perform all mouse actions
+2026-11-14 13:28:05 [INFO] EXECUTION TIME: 15282 ms
+2026-11-14 13:28:05 [ERROR] ERROR DETAILS: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoContainText[2m([22m[32mexpected[39m[2m)[22m failed
+
+Locator: locator('//p[text()=\'Dropped!\']')
+Expected substring: [32m"Dropped!"[39m
+Timeout: 5000ms
+Error: element(s) not found
+
+Call log:
+[2m  - Expect "toContainText" locator('//p[text()=\'Dropped!\']') with timeout 5000ms[22m
+[2m  - waiting for locator('//p[text()=\'Dropped!\']')[22m
+
+    at D:\project\P1_Project1\tests\TC_001_test.spec.ts:58:29
+2026-11-14 13:28:05 [INFO] ==========================================
+2026-11-14 13:29:22 [INFO] ==========================================
+2026-11-14 13:29:22 [INFO] UI TEST STARTED: Perform all mouse actions
+2026-11-14 13:29:22 [INFO] BROWSER: Chrome
+2026-11-14 13:29:22 [INFO] WORKER: 0
+2026-11-14 13:29:22 [INFO] RETRY: 0
+2026-11-14 13:29:22 [INFO] ACTION STARTED: goto | [object Object]
+2026-11-14 13:29:22 [INFO] UI NAVIGATION: https://demoqa.com/buttons
+2026-11-14 13:29:24 [INFO] UI NAVIGATION: https://demoqa.com/buttons
+2026-11-14 13:29:25 [INFO] ACTION PASSED: goto | [object Object]
+2026-11-14 13:29:25 [INFO] ACTION STARTED: click | getByText('Click Me', { exact: true })
+2026-11-14 13:29:25 [INFO] ACTION PASSED: click | getByText('Click Me', { exact: true })
+2026-11-14 13:29:25 [INFO] ACTION STARTED: dblclick | locator('//button[text()=\'Double Click Me\']')
+2026-11-14 13:29:26 [INFO] ACTION PASSED: dblclick | locator('//button[text()=\'Double Click Me\']')
+2026-11-14 13:29:26 [INFO] ACTION STARTED: click | locator('//button[text()=\'Right Click Me\']')
+2026-11-14 13:29:26 [INFO] ACTION PASSED: click | locator('//button[text()=\'Right Click Me\']')
+2026-11-14 13:29:26 [INFO] ACTION STARTED: click | locator('//button[text()=\'Click Me\']')
+2026-11-14 13:29:27 [INFO] ACTION PASSED: click | locator('//button[text()=\'Click Me\']')
+2026-11-14 13:29:27 [INFO] ACTION STARTED: click | locator('//button[text()=\'Click Me\']')
+2026-11-14 13:29:27 [INFO] ACTION PASSED: click | locator('//button[text()=\'Click Me\']')
+2026-11-14 13:29:27 [INFO] ACTION STARTED: goto | [object Object]
+2026-11-14 13:29:28 [INFO] UI NAVIGATION: https://the-internet.herokuapp.com/hovers
+2026-11-14 13:29:30 [INFO] ACTION PASSED: goto | [object Object]
+2026-11-14 13:29:30 [INFO] ACTION STARTED: hover | locator('.figure').first()
+2026-11-14 13:29:31 [INFO] ACTION PASSED: hover | locator('.figure').first()
+2026-11-14 13:29:31 [INFO] ACTION STARTED: goto | [object Object]
+2026-11-14 13:29:31 [INFO] UI NAVIGATION: https://demoqa.com/droppable
+2026-11-14 13:29:31 [INFO] UI NAVIGATION: https://demoqa.com/droppable
+2026-11-14 13:29:32 [INFO] ACTION PASSED: goto | [object Object]
+2026-11-14 13:29:32 [INFO] ACTION STARTED: dragTo | locator('//div[@id=\'draggable\']')
+2026-11-14 13:29:32 [INFO] ACTION PASSED: dragTo | locator('//div[@id=\'draggable\']')
+2026-11-14 13:29:37 [ERROR] UI TEST FAILED: Perform all mouse actions
+2026-11-14 13:29:37 [INFO] EXECUTION TIME: 15578 ms
+2026-11-14 13:29:37 [ERROR] ERROR DETAILS: Error: [2mexpect([22m[31mlocator[39m[2m).[22mtoContainText[2m([22m[32mexpected[39m[2m)[22m failed
+
+Locator: locator('//p[text()=\'Dropped!\']')
+Expected substring: [32m"Dropped!"[39m
+Timeout: 5000ms
+Error: element(s) not found
+
+Call log:
+[2m  - Expect "toContainText" locator('//p[text()=\'Dropped!\']') with timeout 5000ms[22m
+[2m  - waiting for locator('//p[text()=\'Dropped!\']')[22m
+
+    at D:\project\P1_Project1\tests\TC_001_test.spec.ts:58:29
+2026-11-14 13:29:37 [INFO] ==========================================
+2026-11-14 13:30:18 [INFO] ==========================================
+2026-11-14 13:30:18 [INFO] UI TEST STARTED: Perform all mouse actions
+2026-11-14 13:30:18 [INFO] BROWSER: Chrome
+2026-11-14 13:30:18 [INFO] WORKER: 0
+2026-11-14 13:30:18 [INFO] RETRY: 0
+2026-11-14 13:30:18 [INFO] ACTION STARTED: goto | [object Object]
+2026-11-14 13:30:19 [INFO] UI NAVIGATION: https://demoqa.com/buttons
+2026-11-14 13:30:21 [INFO] UI NAVIGATION: https://demoqa.com/buttons
+2026-11-14 13:30:22 [INFO] ACTION PASSED: goto | [object Object]
+2026-11-14 13:30:22 [INFO] ACTION STARTED: click | getByText('Click Me', { exact: true })
+2026-11-14 13:30:22 [INFO] ACTION PASSED: click | getByText('Click Me', { exact: true })
+2026-11-14 13:30:22 [INFO] ACTION STARTED: dblclick | locator('//button[text()=\'Double Click Me\']')
+2026-11-14 13:30:22 [INFO] ACTION PASSED: dblclick | locator('//button[text()=\'Double Click Me\']')
+2026-11-14 13:30:22 [INFO] ACTION STARTED: click | locator('//button[text()=\'Right Click Me\']')
+2026-11-14 13:30:23 [INFO] ACTION PASSED: click | locator('//button[text()=\'Right Click Me\']')
+2026-11-14 13:30:23 [INFO] ACTION STARTED: click | locator('//button[text()=\'Click Me\']')
+2026-11-14 13:30:24 [INFO] ACTION PASSED: click | locator('//button[text()=\'Click Me\']')
+2026-11-14 13:30:24 [INFO] ACTION STARTED: click | locator('//button[text()=\'Click Me\']')
+2026-11-14 13:30:24 [INFO] ACTION PASSED: click | locator('//button[text()=\'Click Me\']')
+2026-11-14 13:30:24 [INFO] ACTION STARTED: goto | [object Object]
+2026-11-14 13:30:25 [INFO] UI NAVIGATION: https://the-internet.herokuapp.com/hovers
+2026-11-14 13:30:27 [INFO] ACTION PASSED: goto | [object Object]
+2026-11-14 13:30:27 [INFO] ACTION STARTED: hover | locator('.figure').first()
+2026-11-14 13:30:28 [INFO] ACTION PASSED: hover | locator('.figure').first()
+2026-11-14 13:30:28 [INFO] ACTION STARTED: goto | [object Object]
+2026-11-14 13:30:28 [INFO] UI NAVIGATION: https://demoqa.com/droppable
+2026-11-14 13:30:28 [INFO] UI NAVIGATION: https://demoqa.com/droppable
+2026-11-14 13:30:28 [INFO] ACTION PASSED: goto | [object Object]
+2026-11-14 13:30:29 [INFO] ACTION STARTED: dragTo | locator('//div[@id=\'draggable\']')
+2026-11-14 13:30:30 [INFO] ACTION PASSED: dragTo | locator('//div[@id=\'draggable\']')
+2026-11-14 13:30:36 [INFO] UI TEST PASSED: Perform all mouse actions
+2026-11-14 13:30:36 [INFO] EXECUTION TIME: 17480 ms
+2026-11-14 13:30:36 [INFO] ==========================================

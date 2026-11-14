@@ -1,5 +1,5 @@
 
-name: Playwright Automation Tests
+name: Playwright Automation Tests - NodeJS
 
 on:
   push:
@@ -17,62 +17,58 @@ permissions:
 
 jobs:
   test:
-    name: Playwright Tests - ${{ matrix.project }}
+    name: Playwright Tests - Chrome
     timeout-minutes: 60
     runs-on: ubuntu-latest
 
-    strategy:
-      fail-fast: false
-      matrix:
-        project:
-          - Chrome
-          - Edge
-
     steps:
       # 1. Checkout repository
-      - name: Checkout code
+      - name: Checkout repository
         uses: actions/checkout@v4
 
       # 2. Setup Node.js
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: "22"
+          node-version: 22
           cache: npm
 
-      # 3. Install dependencies
+      # 3. Verify Node.js and npm
+      - name: Verify Node.js and npm
+        run: |
+          node --version
+          npm --version
+
+      # 4. Install project dependencies
       - name: Install dependencies
         run: npm ci
 
-      # 4. Install browsers and OS dependencies
-      - name: Install Playwright browsers
-        run: npx playwright install --with-deps chrome msedge
+      # 5. Install Chrome browser with OS dependencies
+      - name: Install Playwright Chrome
+        run: npx playwright install --with-deps chrome
 
-      # 5. Execute all test cases
-      - name: Run all Playwright tests
-        run: |
-          npx playwright test \
-            --project="${{ matrix.project }}" \
-            --workers=4
+      # 6. Execute Playwright tests only in Chrome
+      - name: Run Playwright Tests - Chrome
+        run: npx playwright test --project="Chrome" --workers=4
         env:
           CI: "true"
 
-      # 6. Upload HTML report
-      - name: Upload Playwright HTML report
+      # 7. Upload HTML report
+      - name: Upload Playwright HTML Report
         if: ${{ !cancelled() }}
         uses: actions/upload-artifact@v4
         with:
-          name: playwright-html-report-${{ matrix.project }}
+          name: playwright-html-report-chrome
           path: playwright-report/
           retention-days: 30
           if-no-files-found: ignore
 
-      # 7. Upload traces, screenshots and videos
-      - name: Upload Playwright test results
+      # 8. Upload screenshots, videos and traces
+      - name: Upload Playwright Test Results
         if: ${{ !cancelled() }}
         uses: actions/upload-artifact@v4
         with:
-          name: playwright-test-results-${{ matrix.project }}
+          name: playwright-test-results-chrome
           path: test-results/
           retention-days: 30
           if-no-files-found: ignore
